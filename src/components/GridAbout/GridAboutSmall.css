@@ -1,0 +1,153 @@
+.GridAboutSmall__container {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.GridAboutSmall__left_container,
+.GridAboutSmall__right_container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.GridAboutSmall__right_container {
+  border-left: 1px solid black;
+}
+
+.GridAboutSmall__item {
+  height: calc(100% / 3);
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.GridAboutSmall__item:last-child {
+  border-bottom: 0;
+}
+
+.GridAboutSmall__item_text {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.GridAboutSmall__item_text span {
+  font-family: "Aux Mono";
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.GridAboutSmall__item_text p {
+  font-family: "Oxygen Mono";
+  text-align: justify;
+  font-size: 1em;
+  margin: 0;
+}
+
+.GridAboutSmall__item_link {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.GridAboutSmall__item_link a {
+  text-decoration: none;
+  color: black;
+  margin-right: 0.5em;
+  font-size: 0.65em;
+  font-family: "Oxygen Mono";
+}
+
+.GridAboutSmall__item_link img {
+  margin-right: 1em;
+}
+
+.GridAboutSmall__subitem_top {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.GridAboutSmall__subitem_top img {
+  width: 300px;
+}
+
+.GridAboutSmall__subitem_bottom {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GridAboutSmall__subitem_bottom_left {
+  width: 30%;
+  height: 100%;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GridAboutSmall__subitem_bottom_left img {
+  width: 45px;
+}
+
+.GridAboutSmall__subitem_bottom_right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GridAboutSmall__subitem_bottom_right p {
+  margin: 0;
+  font-family: "Oxygen Mono";
+  font-size: 1.4em;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+  .GridAboutSmall__item_text p {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 646px) {
+  .GridAboutSmall__item_text p {
+    font-size: 0.8em;
+  }
+  .GridAboutSmall__item_link a {
+    font-size: 0.6em;
+  }
+}
+
+@media only screen and (max-width: 574px) {
+  .GridAboutSmall__item_text p {
+    font-size: 0.7em;
+  }
+  .GridAboutSmall__item_link a {
+    font-size: 0.55em;
+  }
+}
+
+@media only screen and (max-width: 503px) {
+  .GridAboutSmall__item_link a {
+    font-size: 0.5em;
+  }
+}

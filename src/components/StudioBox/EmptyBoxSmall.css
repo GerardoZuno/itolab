@@ -1,0 +1,230 @@
+.EmptyBoxSmall__artists__container {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: right;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  height: 100%;
+}
+
+.EmptyBoxSmall__artists__container:hover {
+  cursor: url("../../assets/images/arrowDown.svg"), auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.EmptyBoxSmall__artist__wrapper {
+  width: 100%;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  /* margin-bottom: 0.2em; */
+  border-bottom: 1px black solid;
+  overflow-y: scroll;
+}
+
+.EmptyBoxSmall__artist {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 97%;
+  height: 50%;
+}
+
+.EmptyBoxSmall__artist:nth-child(1) {
+  border-bottom: 1px solid black;
+}
+
+.EmptyBoxSmall__artist_img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* outline: red solid; */
+  width: 20%;
+  height: 100%;
+  margin-right: 1em;
+}
+
+.EmptyBoxSmall__artist_img span {
+  font-family: "Aux Mono";
+  font-size: 1.4em;
+}
+
+.EmptyBoxSmall__artist_img img {
+  width: 120px;
+}
+
+.EmptyBoxSmall__artist_text {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.EmptyBoxSmall__artist_text p {
+  margin: 0;
+  font-size: 1.4em;
+  font-weight: lighter;
+  font-family: "Aux Mono";
+}
+
+.EmptyBoxSmall__artist_links {
+  height: 100%;
+  width: 14%;
+  margin-right: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.EmptyBoxSmall__artist_insta {
+  margin-top: 1.4em;
+}
+
+.EmptyBoxSmall__artist_more a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.EmptyBoxSmall__artist_more img {
+  width: 45%;
+}
+
+.EmptyBoxSmall__artist_more p {
+  font-family: "Oxygen Mono";
+  width: 59%;
+  font-size: 0.55em;
+  white-space: nowrap;
+}
+
+.EmptyBoxSmall__artist__scroll {
+  height: 100%;
+  width: 5px;
+}
+.EmptyBoxSmallScroll__vertical_container {
+  border-left: 1px solid black;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dot__vertical {
+  position: absolute;
+  background-color: black;
+  width: 5px;
+}
+
+.dot__vertical:nth-child(1) {
+  height: 15px;
+}
+
+.dot__vertical:nth-child(2) {
+  height: 25px;
+}
+
+.dot__vertical:nth-child(3) {
+  height: 20px;
+}
+
+.dot__vertical:nth-child(4) {
+  height: 10px;
+}
+
+.dot__vertical:nth-child(5) {
+  height: 28px;
+}
+
+@media only screen and (max-width: 800px) {
+  .EmptyBoxSmall__artist_text {
+    width: 55%;
+  }
+  .EmptyBoxSmall__artist_links {
+    width: 20%;
+  }
+  .EmptyBoxSmall__artist_img {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .EmptyBoxSmall__artist_img {
+    width: 30%;
+  }
+  .EmptyBoxSmall__artist_text {
+    width: 45%;
+  }
+  .EmptyBoxSmall__artist_links {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .EmptyBoxSmall__artist_img {
+    width: 35%;
+  }
+  .EmptyBoxSmall__artist_text {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .EmptyBoxSmall__artist_text p {
+    font-size: 1em;
+  }
+  .EmptyBoxSmall__artist_text p:nth-child(1) {
+    margin-bottom: 2em;
+  }
+  .EmptyBoxSmall__artist_insta {
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .EmptyBoxSmall__artist_img img {
+    width: 100px;
+  }
+
+  .EmptyBoxSmall__artist_img {
+    width: 35%;
+  }
+  .EmptyBoxSmall__artist_text {
+    width: 35%;
+  }
+  .EmptyBoxSmall__artist_links {
+    width: 25%;
+  }
+  .EmptyBoxSmall__artist_more p {
+    font-size: 0.4em;
+  }
+  .EmptyBoxSmall__artist_text p:nth-child(1) {
+    margin-bottom: 0.8em;
+  }
+
+  .EmptyBoxSmall__artist_insta {
+    margin-top: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .EmptyBoxSmall__artist_text p {
+    font-size: 0.9em;
+  }
+
+  .EmptyBoxSmall__artist_text p:nth-child(1) {
+    margin-bottom: 1em;
+  }
+}

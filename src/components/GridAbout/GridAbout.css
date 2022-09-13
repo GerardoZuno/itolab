@@ -1,0 +1,123 @@
+.GridAbout__container {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.GridAbout__left_container,
+.GridAbout__right_container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.GridAbout__right_container {
+  border-left: 1px solid black;
+}
+
+.GridAbout__item {
+  height: calc(100% / 3);
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.GridAbout__item:last-child {
+  border-bottom: 0;
+}
+
+.GridAbout__item_text {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.GridAbout__item_text span {
+  font-family: "Aux Mono";
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.GridAbout__item_text p {
+  font-family: "Oxygen Mono";
+  text-align: justify;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.GridAbout__item_link {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.GridAbout__item_link a {
+  text-decoration: none;
+  color: black;
+  margin-right: 0.5em;
+  font-size: 0.8em;
+  font-family: "Oxygen Mono";
+}
+
+.GridAbout__item_link img {
+  margin-right: 1em;
+}
+
+.GridAbout__subitem_top {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.GridAbout__subitem_top img {
+  width: 300px;
+}
+
+.GridAbout__subitem_bottom {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GridAbout__subitem_bottom_left {
+  width: 30%;
+  height: 100%;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GridAbout__subitem_bottom_left img {
+  width: 45px;
+}
+
+.GridAbout__subitem_bottom_right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GridAbout__subitem_bottom_right p {
+  margin: 0;
+  font-family: "Oxygen Mono";
+  font-size: 1.4em;
+  font-weight: 500;
+  letter-spacing: 2px;
+}

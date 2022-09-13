@@ -1,0 +1,50 @@
+.cursor-dot-outline {
+  pointer-events: none;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  opacity: 0.1;
+  transform: translate(-50%, -50%);
+  /* transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; */
+  z-index: 3;
+  mix-blend-mode: normal;
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+.cursor-hidden {
+  pointer-events: none;
+  border: 1px solid transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  opacity: 0.1;
+  transform: translate(-50%, -50%);
+  /* transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; */
+  z-index: 3;
+  mix-blend-mode: normal;
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+.cursor-dot-normal {
+  pointer-events: none;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  opacity: 0.1;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  z-index: 3;
+  width: 7px;
+  height: 7px;
+  mix-blend-mode: normal;
+  background-color: transparent;
+}

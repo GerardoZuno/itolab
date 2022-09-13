@@ -1,0 +1,89 @@
+.GallerySmall__container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.GallerySmall__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 2em);
+  width: 100%;
+}
+
+.GallerySmall__Header_container {
+  height: 12em;
+  margin-top: 0em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.GallerySmall__maincontent_wrapper {
+  padding-bottom: 1em;
+  margin-top: 0.8em;
+  height: calc(100% - 10.5em);
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.GallerySmall__box_text {
+  width: 100%;
+}
+
+.GallerySmall__box_text p {
+  font-family: "Oxygen Mono";
+  text-align: justify;
+}
+
+.GallerySmall__subtitle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.GallerySmall__subtitle h3 {
+  margin: 0.5em 0 0.5em 0;
+  font-family: "Neue Montreal";
+  font-size: 1.2em;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+}
+
+.GallerySmall__subtitle span {
+  background-color: black;
+  color: white;
+}
+
+/* HEIGTH MEDIA QURIES */
+@media only screen and (max-height: 670px) {
+  .GallerySmall__Header_container {
+    height: 12.2em;
+  }
+}
+
+@media only screen and (max-height: 595px) {
+  .GallerySmall__Header_container {
+    height: 12.5em;
+  }
+}
+/* WIDTH MEDIA QUERIES */
+
+@media only screen and (max-width: 545px) {
+  .GallerySmall__Header_container {
+    height: 12.7em;
+  }
+  .GallerySmall__box_text p {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .GallerySmall__Header_container {
+    height: 13.5em;
+  }
+}

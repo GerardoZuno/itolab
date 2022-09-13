@@ -1,0 +1,75 @@
+.dotRainbowGum {
+  background: rgba(165, 224, 205, 0.23);
+  border-color: inherit;
+  outline: inherit;
+  /* border: 1000px; */
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  border-radius: 50%;
+  box-shadow: 0px 0px 35px 1px #a5e0cd;
+  /* z-index: 1; */
+}
+
+.dotRainbowBlue {
+  background: rgba(172, 194, 226, 0.23);
+  border-color: inherit;
+  outline: inherit;
+  /* border: 1000px; */
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  border-radius: 50%;
+  box-shadow: 0px 0px 35px 1px #acc2e2;
+  /* z-index: 1; */
+}
+
+.dotRainbowPink {
+  background: rgba(209, 151, 189, 0.23);
+  border-color: inherit;
+  outline: inherit;
+  /* border: 1000px; */
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  border-radius: 50%;
+  box-shadow: 0px 0px 35px 1px #d197bd;
+  /* z-index: 1; */
+}
+
+.dotRainbowYellow {
+  background: rgba(235, 236, 192, 0.23);
+  border-color: inherit;
+  outline: inherit;
+  /* border: 1000px; */
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  border-radius: 50%;
+  box-shadow: 0px 0px 35px 1px #ebecc0;
+  /* z-index: 1; */
+}
+
+.dotRainbowMustard {
+  background: rgba(255, 229, 185, 0.23);
+  border-color: inherit;
+  outline: inherit;
+  /* border: 1000px; */
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  border-radius: 50%;
+  box-shadow: 0px 0px 35px 1px #ffe5b9;
+  /* z-index: 1; */
+}
+.dotRainbowBlank {
+  background: rgba(245, 246, 243, 0.23);
+  border-color: inherit;
+  outline: inherit;
+  /* border: 1000px; */
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  border-radius: 50%;
+  box-shadow: 0px 0px 35px 1px #f8f8f8;
+}

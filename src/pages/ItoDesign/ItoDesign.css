@@ -1,0 +1,313 @@
+.Design__container {
+  width: 79%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Design__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 4.5em);
+  width: 100%;
+}
+
+.Design__Header__container {
+  height: 10.5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Design__content_wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Design__left__container {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 580px;
+}
+
+.Design__right__container {
+  width: 55%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.Design__subtitle__container {
+  font-family: "Neue Montreal";
+  font-size: 30px;
+  font-weight: bold;
+  white-space: nowrap;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  text-align: start;
+  width: 100%;
+}
+
+.Design__subtitle__container a {
+  text-decoration: none;
+}
+
+.Design__subtitle__boder {
+  background: url("../../assets/images/border-text.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0px 5px 0px 8px;
+}
+
+.Design__subtitle__box {
+  background-color: black;
+  color: white;
+}
+
+.Design__subtitle__anchor {
+  font-weight: lighter;
+  color: #313131;
+}
+
+.Design__text__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: calc(100% - 7em);
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.Design__text__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-family: "Oxygen Mono";
+  font-size: 1.2em;
+}
+
+.Design__text__right {
+  width: 48%;
+  font-family: "Aux Mono";
+  font-size: 17px;
+  text-align: justify;
+}
+
+.DesignBox__empty_msg {
+  font-family: "Aux Mono";
+  font-size: 1em;
+}
+
+.Design__portal__container {
+  position: relative;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.Design__portal__wrapper {
+  /* height: auto; */
+  /* width: auto; */
+  position: absolute;
+  left: 146vw;
+  top: 39%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background: transparent;
+}
+
+/* HEIGHT MEDIA QUERIES */
+
+@media only screen and (max-height: 1430px) {
+  .Design__Header__container {
+    height: 11em;
+  }
+}
+
+@media only screen and (max-height: 1330px) {
+  .Design__portal__wrapper {
+    top: 38.5%;
+  }
+}
+
+@media only screen and (max-height: 1270px) {
+  .Design__portal__wrapper {
+    top: 38%;
+  }
+}
+
+@media only screen and (max-height: 1180px) {
+  .Design__portal__wrapper {
+    top: 37%;
+  }
+}
+
+@media only screen and (max-height: 1110px) {
+  .Design__Header__container {
+    height: 11.2em;
+  }
+}
+
+@media only screen and (max-height: 1120px) {
+  .Design__portal__wrapper {
+    top: 36%;
+  }
+}
+
+@media only screen and (max-height: 1050px) {
+  .Design__portal__wrapper {
+    top: 35.5%;
+  }
+  .Design__Header__container {
+    height: 11em;
+  }
+}
+@media only screen and (max-height: 1010px) {
+  .Design__Header__container {
+    height: 11.5em;
+  }
+}
+@media only screen and (max-height: 1000px) {
+  .Design__portal__wrapper {
+    top: 35%;
+  }
+}
+
+@media only screen and (max-height: 970px) {
+  .Design__portal__wrapper {
+    top: 34%;
+  }
+}
+
+@media only screen and (max-height: 920px) {
+  .Design__Header__container {
+    height: 11.7em;
+  }
+}
+
+@media only screen and (max-height: 930px) {
+  .Design__portal__wrapper {
+    top: 33.5%;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+  .Design__Header__container {
+    height: 12em;
+  }
+
+  .Design__text__left {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-height: 890px) {
+  .Design__portal__wrapper {
+    top: 33%;
+  }
+}
+
+@media only screen and (max-height: 860px) {
+  .Design__portal__wrapper {
+    top: 32%;
+  }
+}
+@media only screen and (max-height: 850px) {
+  .Design__Header__container {
+    height: 11.9em;
+  }
+}
+@media only screen and (max-height: 830px) {
+  .Design__portal__wrapper {
+    top: 31.5%;
+  }
+}
+
+@media only screen and (max-height: 805px) {
+  .Design__subtitle__container {
+    font-size: 25px;
+  }
+
+  .Design__subtitle__container p {
+    margin-top: 0.5em;
+  }
+  .Design__left__container {
+    height: 550px;
+  }
+
+  .Design__right__container {
+    height: 550px;
+  }
+}
+@media only screen and (max-height: 775px) {
+  .Design__right__container {
+    height: 100%;
+  }
+  .Design__left__container {
+    height: 100%;
+  }
+  .Design__Header__container {
+    height: 12em;
+  }
+}
+
+@media only screen and (max-height: 760px) {
+  .Design__left__container {
+    height: 500px;
+  }
+
+  .Design__right__container {
+    height: 500px;
+  }
+}
+@media only screen and (max-height: 724px) {
+  .Design__portal__wrapper {
+    top: 35%;
+  }
+  .Design__Header__container {
+    height: 12.4em;
+  }
+  .Design__left__container {
+    height: 450px;
+  }
+
+  .Design__right__container {
+    height: 450px;
+  }
+
+  .Design__text__left {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-height: 690px) {
+  .Design__Header__container {
+    height: 12.6em;
+  }
+}
+
+/* WIDTH MEDIA QUERIES */
+
+@media only screen and (max-width: 1333px) {
+  .Design__text__left {
+    font-size: 0.8em;
+  }
+
+  .Design__subtitle__container {
+    font-size: 20px;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .Design__subtitle__container {
+    font-size: 18px;
+  }
+}

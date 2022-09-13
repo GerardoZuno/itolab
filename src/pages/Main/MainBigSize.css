@@ -1,0 +1,61 @@
+.MainBigSize__wrapper {
+  width: 500vw;
+  height: 100vh;
+  display: flex;
+}
+
+.MainBigSize__stickyBars {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MainBigSize__stickyBar_top_container {
+  width: 80%;
+  margin-top: 9em;
+}
+
+.MainBigSize__stickyBar_top {
+  border: 1px solid black;
+  height: 5px;
+  width: 100%;
+}
+
+.MainBigSize__stickyBar_bottom_container {
+  width: 80%;
+  margin-bottom: 2.5em;
+}
+
+.MainBigSize__Screens__wrapper {
+  width: 100vw;
+  background: transparent;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 951px) {
+  .MainBigSize__Screens__wrapper {
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+
+  .MainBigSize__stickyBar_bottom_container {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .MainBigSize__stickyBar_top_container {
+    width: 85%;
+  }
+
+  .MainBigSize__stickyBar_bottom_container {
+    width: 85%;
+  }
+}

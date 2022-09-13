@@ -1,0 +1,272 @@
+.home__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-image: url("../assets/images/rainbow.png"); */
+  /* background-position: center center; */
+  /* background-size: cover; */
+}
+
+.home__wrapper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__logo_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 750px;
+}
+
+.home__logo_text {
+  text-align: center;
+  font-family: "Oxygen Mono";
+  font-size: 25.5px;
+  margin-top: 0.6em;
+  padding: 0;
+  font-weight: normal;
+  word-spacing: 5px;
+  letter-spacing: 20px;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.home__next {
+  width: 40px;
+  height: 40px;
+  margin-right: 2.5em;
+  align-self: flex-end;
+  z-index: 1;
+}
+
+.next {
+  width: 100%;
+  height: 80%;
+}
+
+.home__info_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top: 60%;
+  width: 710px;
+}
+
+.home_info_title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 35px;
+  letter-spacing: 7px;
+  word-spacing: 5px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .home__wrapper {
+    padding-bottom: 17%;
+  }
+  .home__logo_wrap {
+    width: 720px;
+  }
+  .home__logo_text {
+    font-size: 25px;
+    word-spacing: 5px;
+    letter-spacing: 19px;
+  }
+  .home__info_wrap {
+    width: 690px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .home__wrapper {
+    padding-bottom: 20%;
+  }
+
+  .home__logo_wrap {
+    width: 690px;
+  }
+
+  .home__logo_text {
+    font-size: 25px;
+    word-spacing: 3px;
+    letter-spacing: 17.5px;
+  }
+  .home__info_wrap {
+    width: 655px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .home__logo_wrap {
+    width: 650px;
+  }
+  .home__logo_text {
+    font-size: 25px;
+    letter-spacing: 15.5px;
+  }
+  .home__info_wrap {
+    width: 625px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home__wrapper {
+    padding-bottom: 23%;
+  }
+  .home__logo_wrap {
+    width: 600px;
+  }
+
+  .home__logo_text {
+    font-size: 23px;
+    letter-spacing: 14.5px;
+  }
+  .home__info_wrap {
+    width: 585px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .home__wrapper {
+    padding-bottom: 23%;
+  }
+  .home__logo_wrap {
+    width: 580px;
+  }
+
+  .home__logo_text {
+    font-size: 22px;
+    letter-spacing: 14px;
+  }
+  .home__info_wrap {
+    width: 560px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .home__wrapper {
+    padding-bottom: 25%;
+  }
+  .home__logo_wrap {
+    width: 560px;
+  }
+
+  .home__logo_text {
+    font-size: 22px;
+    letter-spacing: 13px;
+  }
+  .home__info_wrap {
+    width: 560px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home__wrapper {
+    padding-bottom: 26%;
+  }
+  .home__logo_wrap {
+    width: 520px;
+  }
+
+  .home__logo_text {
+    font-size: 21px;
+    letter-spacing: 12px;
+  }
+  .home__info_wrap {
+    width: 490px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .home__wrapper {
+    padding-bottom: 28%;
+  }
+  .home__logo_wrap {
+    width: 480px;
+  }
+
+  .home__logo_text {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+  .home__info_wrap {
+    width: 445px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home__wrapper {
+    padding-bottom: 30%;
+  }
+  .home__logo_wrap {
+    width: 420px;
+  }
+
+  .home__logo_text {
+    font-size: 19px;
+    letter-spacing: 8px;
+  }
+  .home__info_wrap {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .home__wrapper {
+    padding-bottom: 33%;
+  }
+  .home__logo_wrap {
+    width: 350px;
+  }
+
+  .home__logo_text {
+    font-size: 17px;
+    letter-spacing: 6px;
+  }
+  .home__info_wrap {
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home__wrapper {
+    padding-bottom: 35%;
+  }
+  .home__logo_wrap {
+    width: 330px;
+  }
+
+  .home__logo_text {
+    font-size: 15.5px;
+    letter-spacing: 6px;
+  }
+  .home__info_wrap {
+    width: 310px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .home__wrapper {
+    padding-bottom: 37%;
+  }
+  .home__logo_wrap {
+    width: 260px;
+  }
+
+  .home__logo_text {
+    font-size: 13px;
+    letter-spacing: 4px;
+  }
+}

@@ -1,0 +1,191 @@
+.Home_4__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../../assets/images/reverse-hand.png");
+  background-position: 65% top;
+  background-repeat: no-repeat;
+  padding-bottom: 3%;
+  background-size: 500px;
+}
+
+.Home_4__wrapper {
+  margin: 0px;
+  padding: 0px;
+  /* justify-content: space-between; */
+  width: 750px;
+  padding-bottom: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+.Home_4_contain {
+  background: url("../../assets/images/border-text.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0px 5px 0px 15px;
+}
+
+.Home_4__box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home_4__phrase {
+  font-family: Neue Montreal;
+  font-weight: bold;
+  font-size: 62px;
+  letter-spacing: 7px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Home_4__wrapper {
+    width: 720px;
+
+    margin-bottom: 1em;
+  }
+  .Home_4__phrase {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Home_4__wrapper {
+    width: 690px;
+
+    margin-bottom: 2em;
+  }
+  .Home_4__phrase {
+    font-size: 58px;
+    letter-spacing: 7px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Home_4__wrapper {
+    width: 655px;
+
+    margin-bottom: 2em;
+  }
+  .Home_4__phrase {
+    font-size: 56px;
+    letter-spacing: 7px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Home_4__wrapper {
+    width: 615px;
+
+    margin-bottom: 2em;
+  }
+  .Home_4__phrase {
+    font-size: 52px;
+    letter-spacing: 5px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Home_4_contain {
+    padding: 0px 5px 0px 10px;
+  }
+
+  .Home_4__wrapper {
+    width: 590px;
+
+    margin-bottom: 3em;
+  }
+  .Home_4__phrase {
+    font-size: 52px;
+    letter-spacing: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Home_4__container {
+    background-image: url("../../assets/images/hand.png");
+    background-position: 65% bottom;
+    background-size: 550px;
+  }
+
+  .Home_4__wrapper {
+    width: 520px;
+
+    margin-bottom: 3em;
+  }
+  .Home_4__phrase {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Home_4__wrapper {
+    width: 480px;
+
+    margin-bottom: 3em;
+  }
+  .Home_4__phrase {
+    font-size: 38px;
+    letter-spacing: 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Home_4__wrapper {
+    width: 430px;
+
+    margin-bottom: 3em;
+  }
+  .Home_4__phrase {
+    font-size: 36px;
+    letter-spacing: 4px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Home_4__wrapper {
+    width: 360px;
+
+    margin-bottom: 3em;
+  }
+  .Home_4__phrase {
+    font-size: 30px;
+    letter-spacing: 4px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Home_4_contain {
+    padding: 0px 5px 0px 8px;
+  }
+  .Home_4__wrapper {
+    width: 350px;
+
+    margin-bottom: 3em;
+  }
+  .Home_4__phrase {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .Home_4__wrapper {
+    width: 340px;
+
+    margin-bottom: 3em;
+  }
+  .Home_4__phrase {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+}

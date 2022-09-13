@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Aux Mono";
+  src: url("./assets/fonts/aux-mono/AuxMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oxygen Mono";
+  src: url("./assets/fonts/oxygen-mono/OxygenMono-Regular.otf")
+    format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./assets/fonts/neue-montreal/NeueMontreal-Regular.otf")
+    format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Montreal light";
+  src: url("./assets/fonts/neue-montreal/NeueMontreal-Light.otf")
+    format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cygnito Mono";
+  src: url("./assets/fonts/cygnito-mono/Cygnito-Mono.otf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+a {
+  cursor: url("./assets/images/cursor.png"), auto;
+}
+
+svg {
+  width: 0;
+  height: 0;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: url("./assets/images/cursor.png"), auto;
+  background-image: url("assets/images/backgroundRainbow.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media only screen and (max-width: 951px) {
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}

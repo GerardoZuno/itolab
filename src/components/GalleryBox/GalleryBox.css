@@ -1,0 +1,412 @@
+.GalleryBox__artists__container {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: right;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.GalleryBox__artists__container:hover {
+  cursor: url("../../assets/images/arrowDown.svg"), auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.GalleryBox__artist__wrapper {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.GalleryBox__artist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.GalleryBox__artist:nth-child(1) {
+  height: 50%;
+  border-bottom: 1px solid black;
+}
+
+.GalleryBox__artist:nth-child(2) {
+  height: 50%;
+}
+
+.GalleryBox__artist__upper {
+  display: flex;
+  width: 93%;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  font-weight: lighter;
+}
+
+.GalleryBox__artis__upper_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.GalleryBox__artist__upper_spanA {
+  font-family: "Aux Mono";
+  font-size: 2em;
+  width: 7em !important;
+}
+
+.GalleryBox__artist__upper_spanSlash {
+  font-size: 1.5em;
+  font-weight: 500;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  text-align: start;
+}
+.GalleryBox__artist__bottom {
+  display: flex;
+  width: 95%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.GalleryBox__artist__bottom p {
+  margin: 0;
+  font-size: 1.7em;
+  font-weight: lighter;
+}
+
+.GalleryBox__artist__bottom_empty {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.GalleryBox__artist__bottom_empty p {
+  margin: 0 0 0 1em;
+  font-size: 1.1em;
+  font-family: "Aux Mono";
+  font-weight: lighter;
+}
+
+.GalleryBox__carousel__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 20em;
+}
+
+.GalleryBox__carousel__container a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
+
+.GalleryBox__carousel__container img {
+  height: 150px;
+  width: 150px;
+}
+
+.GalleryBox__artist__learmore {
+  display: flex;
+  width: 100%;
+  align-self: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Oxygen Mono";
+  font-size: 0.7em;
+  white-space: nowrap;
+}
+.GalleryBox__artist__learmore a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+.GalleryBox__artist__learmore img {
+  margin-left: 1em;
+  width: calc(50% - 1em);
+}
+
+.GalleryBox__artist__learmore_empty {
+  display: flex;
+  width: 100%;
+  align-self: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Oxygen Mono";
+  font-size: 0.7em;
+  white-space: nowrap;
+}
+
+.GalleryBox__artist__learmore_empty a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.GalleryBox__artist__learmore_empty img {
+  margin-left: 1em;
+  width: calc(50% - 3em) !important;
+}
+
+.GalleryBox__artist__line {
+  width: 100%;
+  border-top: 0.5px solid black;
+  height: 5px;
+}
+.GalleryBox__artist__scroll {
+  height: 100%;
+  width: 5px;
+}
+.GalleryBoxScroll__vertical_container {
+  border-left: 1px solid black;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dot__vertical {
+  position: absolute;
+  background-color: black;
+  width: 5px;
+}
+
+.dot__vertical:nth-child(1) {
+  height: 15px;
+}
+
+.dot__vertical:nth-child(2) {
+  height: 25px;
+}
+
+.dot__vertical:nth-child(3) {
+  height: 20px;
+}
+
+.dot__vertical:nth-child(4) {
+  height: 10px;
+}
+
+.dot__vertical:nth-child(5) {
+  height: 28px;
+}
+
+/* HEIGHT MEDIA QUIERES */
+
+@media only screen and (max-height: 850px) {
+  .GalleryBox__artist:nth-child(1) {
+    height: 48%;
+    border-bottom: 1px solid black;
+  }
+
+  .GalleryBox__artist:nth-child(2) {
+    height: 48%;
+  }
+
+  .GalleryBox__artist__upper {
+    display: flex;
+    width: 93%;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: lighter;
+    position: relative;
+  }
+
+  .GalleryBox__artist__upper_spanA {
+    font-family: "Aux Mono";
+    font-size: 1.8em;
+  }
+
+  .GalleryBox__artist__bottom {
+    display: flex;
+    width: 95%;
+    height: 70%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .GalleryBox__carousel__container img {
+    height: 120px;
+    width: 120px;
+  }
+  .GalleryBox__artist__bottom p {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+}
+
+@media only screen and (max-height: 772px) {
+  .GalleryBox__artist__bottom {
+    display: flex;
+    width: 95%;
+    height: 70%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .GalleryBox__carousel__container img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-height: 724px) {
+  .GalleryBox__artist__bottom {
+    display: flex;
+    width: 95%;
+    height: 65%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .GalleryBox__carousel__container img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .GalleryBox__artist__bottom p {
+    font-size: 1.2em;
+  }
+}
+
+/* WIDTH MEDIA QUIERES */
+
+@media only screen and (max-width: 2150px) {
+  .GalleryBox__artist__upper_spanA {
+    width: 27%;
+  }
+}
+
+@media only screen and (max-width: 1950px) {
+  .GalleryBox__artist__upper_spanA {
+    width: 29%;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .GalleryBox__artist__upper_spanA {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .GalleryBox__artist__upper_spanA {
+    width: 31%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .GalleryBox__artist__upper_spanA {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .GalleryBox__artist__upper_spanA {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 1490px) {
+  .GalleryBox__artist__wrapper {
+    width: 99%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .GalleryBox__artist__upper_spanA {
+    width: 34%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .GalleryBox__artist__upper_spanA {
+    width: 36%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .GalleryBox__artist__upper_spanA {
+    width: 38%;
+  }
+}
+
+@media only screen and (max-width: 1214px) {
+  .GalleryBox__artist__wrapper {
+    width: 98%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .GalleryBox__artist__wrapper {
+    width: 98%;
+  }
+
+  .GalleryBox__artist__learmore a {
+    font-size: 0.8em;
+  }
+  .GalleryBox__artist__learmore img {
+    margin-left: 1em;
+    width: calc(50% - 1em);
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .GalleryBox__artist__learmore a {
+    font-size: 0.7em;
+  }
+  .GalleryBox__artist__bottom p {
+    font-size: 1.2em;
+  }
+  .GalleryBox__artist__upper_spanA {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1065px) {
+  .GalleryBox__artist__learmore a {
+    font-size: 0.6em;
+  }
+  .GalleryBox__artist__learmore img {
+    margin-left: 0.8em;
+    width: calc(50% - 1.5em);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .GalleryBox__artist__learmore a {
+    font-size: 0.5em;
+  }
+  .GalleryBox__artist__learmore img {
+    margin-left: 0.8em;
+    width: calc(50% - 1.5em);
+  }
+
+  .GalleryBox__artist__upper_spanA {
+    width: 43%;
+  }
+}

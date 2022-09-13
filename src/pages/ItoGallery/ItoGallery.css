@@ -1,0 +1,458 @@
+.Gallery__container {
+  width: 79%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Gallery__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 4.5em);
+  width: 100%;
+}
+
+.Gallery__Header__container {
+  height: 10.5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Gallery__content_wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Gallery__left__container {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 580px;
+}
+
+.Gallery__right__container {
+  width: 55%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.Gallery__subtitle__container {
+  font-family: "Neue Montreal";
+  font-size: 30px;
+  font-weight: bold;
+  white-space: nowrap;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  text-align: start;
+  width: 100%;
+}
+
+.Gallery__subtitle__container a {
+  text-decoration: none;
+}
+
+.Gallery__subtitle__boder {
+  background: url("../../assets/images/border-text.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0px 5px 0px 8px;
+}
+
+.Gallery__subtitle__box {
+  background-color: black;
+  color: white;
+}
+
+.Gallery__subtitle__anchor {
+  font-weight: lighter;
+  color: #313131;
+}
+
+.Gallery__text__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: calc(100% - 7em);
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.Gallery__text__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  font-family: "Oxygen Mono";
+  font-size: 1.2em;
+}
+
+.Gallery__text__right {
+  width: 48%;
+  font-family: "Aux Mono";
+  font-size: 17px;
+  text-align: justify;
+}
+
+.GalleryBox__empty_msg {
+  font-family: "Aux Mono";
+  font-size: 1em;
+}
+
+.Gallery__portal__container {
+  position: relative;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.Gallery__portal__wrapper {
+  /* height: auto; */
+  /* width: auto; */
+  position: absolute;
+  left: 246vw;
+  top: 39%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background: transparent;
+}
+
+/* HEIGHT MEDIA QUERIES */
+
+@media only screen and (max-height: 1430px) {
+  .Gallery__Header__container {
+    height: 11em;
+  }
+}
+
+@media only screen and (max-height: 1330px) {
+  .Gallery__portal__wrapper {
+    top: 38.5%;
+  }
+}
+
+@media only screen and (max-height: 1270px) {
+  .Gallery__portal__wrapper {
+    top: 38%;
+  }
+}
+
+@media only screen and (max-height: 1180px) {
+  .Gallery__portal__wrapper {
+    top: 37%;
+  }
+}
+
+@media only screen and (max-height: 1120px) {
+  .Gallery__portal__wrapper {
+    top: 36%;
+  }
+}
+
+@media only screen and (max-height: 1110px) {
+  .Gallery__Header__container {
+    height: 11.2em;
+  }
+}
+
+@media only screen and (max-height: 1050px) {
+  .Gallery__portal__wrapper {
+    top: 35.5%;
+  }
+}
+
+@media only screen and (max-height: 1010px) {
+  .Gallery__Header__container {
+    height: 11.5em;
+  }
+}
+
+@media only screen and (max-height: 1000px) {
+  .Gallery__portal__wrapper {
+    top: 35%;
+  }
+}
+
+@media only screen and (max-height: 970px) {
+  .Gallery__portal__wrapper {
+    top: 34%;
+  }
+}
+
+@media only screen and (max-height: 930px) {
+  .Gallery__portal__wrapper {
+    top: 33.5%;
+  }
+}
+
+@media only screen and (max-height: 920px) {
+  .Gallery__Header__container {
+    height: 11.7em;
+  }
+}
+
+@media only screen and (max-height: 890px) {
+  .Gallery__portal__wrapper {
+    top: 33%;
+  }
+}
+
+@media only screen and (max-height: 860px) {
+  .Gallery__portal__wrapper {
+    top: 32%;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .Gallery__Header__container {
+    height: 11.9em;
+  }
+  .Gallery__portal__container {
+    height: 90%;
+    width: 100%;
+    z-index: 10;
+  }
+}
+@media only screen and (max-height: 849px) {
+  .Gallery__text__container {
+    height: calc(100% - 10em);
+  }
+}
+
+@media only screen and (max-height: 830px) {
+  .Gallery__portal__wrapper {
+    top: 31.5%;
+  }
+}
+
+@media only screen and (max-height: 803px) {
+  .Gallery__left__container {
+    height: 550px;
+  }
+
+  .Gallery__right__container {
+    height: 550px;
+  }
+
+  .Gallery__subtitle__container {
+    font-size: 26px;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+  }
+
+  .Gallery__artists__container {
+    height: 400px;
+    width: 100%;
+  }
+
+  .Gallery__artist__bottom {
+    margin-bottom: 0.5em;
+  }
+  .Gallery__artist__upper {
+    margin-bottom: 0em;
+  }
+  .Gallery__text__container {
+    height: calc(100% - 8em);
+  }
+}
+
+@media only screen and (max-height: 772px) {
+  .Gallery__Header__container {
+    height: 12em;
+  }
+
+  .Gallery__carousel__container img {
+    height: 130px;
+    width: 130px;
+  }
+
+  .Gallery__left__container {
+    height: 500px;
+  }
+
+  .Gallery__right__container {
+    height: 500px;
+  }
+  .Gallery__text__container {
+    height: calc(100% - 7em);
+  }
+}
+
+@media only screen and (max-height: 760px) {
+  .Gallery__Header__container {
+    height: 12.4em;
+  }
+
+  .Gallery__carousel__container img {
+    height: 130px;
+    width: 130px;
+  }
+
+  .Gallery__left__container {
+    height: 500px;
+  }
+
+  .Gallery__right__container {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-height: 724px) {
+  .Gallery__Header__container {
+    height: 12.4em;
+  }
+
+  .Gallery__carousel__container img {
+    height: 110px;
+    width: 110px;
+  }
+
+  .Gallery__left__container {
+    height: 450px;
+  }
+
+  .Gallery__right__container {
+    height: 450px;
+  }
+
+  .Gallery__subtitle__container {
+    font-size: 24px;
+  }
+
+  .Gallery__text__right {
+    font-size: 15px;
+  }
+
+  .Gallery__portal__wrapper {
+    top: 35%;
+  }
+  .Gallery__text__container {
+    height: calc(100% - 6.5em);
+  }
+}
+
+@media only screen and (max-height: 690px) {
+  .Gallery__Header__container {
+    height: 12.6em;
+  }
+}
+
+/* WIDTH MEDIA QUERIES */
+
+@media only screen and (max-width: 2270px) {
+  .Gallery__artis__upper_wrap {
+    width: 26%;
+  }
+}
+@media only screen and (max-width: 2110px) {
+  .Gallery__artis__upper_wrap {
+    width: 27%;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  .Gallery__artis__upper_wrap {
+    width: 28%;
+  }
+}
+
+@media only screen and (max-width: 1890px) {
+  .Gallery__artis__upper_wrap {
+    width: 29%;
+  }
+}
+
+@media only screen and (max-width: 1850px) {
+  .Gallery__artis__upper_wrap {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1780px) {
+  .Gallery__artis__upper_wrap {
+    width: 31%;
+  }
+}
+
+@media only screen and (max-width: 1670px) {
+  .Gallery__artis__upper_wrap {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .Gallery__artis__upper_wrap {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 1557px) {
+  .Gallery__subtitle__container {
+    font-size: 22px;
+  }
+
+  .Gallery__text__right {
+    font-size: 14px;
+  }
+  .Gallery__artis__upper_wrap {
+    width: 36%;
+  }
+  .Gallery__text__left {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .Gallery__artis__upper_wrap {
+    width: 37%;
+  }
+}
+
+@media only screen and (max-width: 1430px) {
+  .Gallery__artis__upper_wrap {
+    width: 39%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Gallery__subtitle__container {
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+  }
+  .Gallery__text__left {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .Gallery__subtitle__container {
+    font-size: 18px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .Gallery__subtitle__container {
+    font-size: 21px;
+  }
+
+  .Gallery__text__right {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .Gallery__subtitle__container {
+    font-size: 18px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+  }
+}

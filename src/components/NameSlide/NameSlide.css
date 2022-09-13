@@ -1,0 +1,70 @@
+.NameSlide__container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll {
+  display: flex;
+  width: 100%;
+}
+.scroll div {
+  font-weight: lighter;
+  font-size: 1.8em;
+  font-family: "Neue Montreal";
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #212121;
+  -webkit-animation: animate 40s -40s linear infinite;
+  animation: animate 40s -40s linear infinite;
+  will-change: transform;
+}
+.scroll div:nth-child(2) {
+  -webkit-animation: animate2 40s -20s linear infinite;
+  animation: animate2 40s -20s linear infinite;
+}
+
+.scroll span {
+  color: black;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes animate2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+@keyframes animate2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@media only screen and (max-height: 760px) {
+  .scroll div {
+    font-size: 1.4em;
+  }
+}

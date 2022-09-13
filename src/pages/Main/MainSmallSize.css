@@ -1,0 +1,53 @@
+.MainSmallSize__wrapper {
+  width: 500vw;
+  height: 100vh;
+  display: flex;
+}
+
+.MainSmallSize__stickyBars {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MainSmallSize__stickyBar_top_container {
+  width: 80%;
+  margin-top: 11.5em;
+}
+
+.MainSmallSize__stickyBar_top {
+  border: 1px solid black;
+  height: 5px;
+  width: 100%;
+}
+
+.MainSmallSize__stickyBar_bottom_container {
+  width: 80%;
+}
+
+.MainSmallSize__Screens__wrapper {
+  width: 100vw;
+  background: transparent;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 545px) {
+  .MainSmallSize__stickyBar_top_container {
+    width: 80%;
+    margin-top: 12em;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .MainSmallSize__stickyBar_top_container {
+    width: 80%;
+    margin-top: 12.5em;
+  }
+}

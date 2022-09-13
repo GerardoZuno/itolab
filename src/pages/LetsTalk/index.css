@@ -1,0 +1,517 @@
+.LetsTalk__container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.LetsTalk__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 4em);
+  width: 100%;
+}
+
+.LetsTalk__Header_contaner {
+  height: 13%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.LetsTalk__maincontent_wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LetsTalk__maincontent_left_container {
+  width: 45%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.LetsTalk__maincontent_left_binary {
+  width: 5%;
+  height: 100%;
+  transform: rotate(270deg);
+  font-size: 11px;
+  word-spacing: 10px;
+  font-family: "Oxygen Mono";
+  font-weight: lighter;
+  white-space: nowrap;
+  position: relative;
+  top: 23em;
+}
+
+.LetsTalk__maincontent_left_form {
+  width: 85%;
+  height: 100%;
+}
+
+.LetsTalk__maincontent_left_infodate_container {
+  position: relative;
+  width: 10%;
+}
+.LetsTalk__maincontent_left_infodate {
+  transform: rotate(270deg);
+  top: 15.8em;
+  left: -12.7em;
+  width: 30.9em;
+  position: absolute;
+}
+
+.LetsTalk__maincontent_right_container {
+  width: 45%;
+}
+
+/* MOBILE VIEW */
+.LetsTalkMobile__maincontent_wrapper {
+  padding-top: 3em;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.LetsTalkMobile__maincontent_left_container {
+  width: 99%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.LetsTalkMobile__maincontent_left_binary {
+  width: 5%;
+  transform: rotate(270deg);
+  font-size: 11px;
+  word-spacing: 10px;
+  font-family: "Oxygen Mono";
+  font-weight: lighter;
+  white-space: nowrap;
+  position: relative;
+  left: -1em;
+  top: 23em;
+}
+.LetsTalkMobile__maincontent_left_form {
+  width: 95%;
+  height: 100%;
+}
+
+.LetsTalkMobile__maincontent_right_container {
+  margin-top: 2em;
+  width: 99%;
+}
+
+.LetsTalkMobile__maincontent_left_infodate_container {
+  margin-top: 2em;
+  width: 99%;
+  /* outline: blue solid; */
+  margin-bottom: 1em;
+}
+.LetsTalkMobile__maincontent_left_infodate {
+  width: 98%;
+}
+
+/* HEIGHT MEDIA QUERIES  */
+@media only screen and (max-height: 1250px) {
+  .LetsTalk__Header_contaner {
+    height: 13%;
+
+    margin-bottom: 0;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 87%;
+  }
+  .LetsTalk__wrapper {
+    height: calc(100% - 4.3em);
+  }
+}
+
+@media only screen and (max-height: 1220px) {
+  .LetsTalk__Header_contaner {
+    height: 13%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 86%;
+  }
+  .LetsTalk__wrapper {
+    height: calc(100% - 3.7em);
+  }
+}
+@media only screen and (max-height: 1205px) {
+  .LetsTalk__Header_contaner {
+    height: 13.5%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 85.5%;
+  }
+}
+
+@media only screen and (max-height: 1170px) {
+  .LetsTalk__Header_contaner {
+    height: 14%;
+    margin-bottom: 0;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 86%;
+  }
+}
+@media only screen and (max-height: 1120px) {
+  .LetsTalk__Header_contaner {
+    height: 14.3%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 84.5%;
+  }
+}
+@media only screen and (max-height: 1100px) {
+  .LetsTalk__Header_contaner {
+    height: 14.5%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 85.5%;
+  }
+}
+@media only screen and (max-height: 1085px) {
+  .LetsTalk__Header_contaner {
+    height: 15%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 84%;
+  }
+}
+@media only screen and (max-height: 1050px) {
+  .LetsTalk__Header_contaner {
+    height: 15.5%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 83.5%;
+  }
+}
+@media only screen and (max-height: 1020px) {
+  .LetsTalk__Header_contaner {
+    height: 16%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 83%;
+  }
+}
+
+@media only screen and (max-height: 1000px) {
+  .LetsTalk__Header_contaner {
+    height: 16%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 84%;
+  }
+}
+@media only screen and (max-height: 990px) {
+  .LetsTalk__Header_contaner {
+    height: 16.5%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 82.5%;
+  }
+}
+
+@media only screen and (max-height: 960px) {
+  .LetsTalk__Header_contaner {
+    height: 17%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 82%;
+  }
+}
+
+@media only screen and (max-height: 950px) {
+  .LetsTalk__Header_contaner {
+    height: 17.5%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 81.5%;
+  }
+}
+
+@media only screen and (max-height: 910px) {
+  .LetsTalk__Header_contaner {
+    height: 18%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 81%;
+  }
+}
+
+@media only screen and (max-height: 885px) {
+  .LetsTalk__Header_contaner {
+    height: 18.5%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 80%;
+  }
+}
+
+@media only screen and (max-height: 860px) {
+  .LetsTalk__Header_contaner {
+    height: 19%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 79.5%;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .LetsTalk__Header_contaner {
+    height: 19%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 79.5%;
+  }
+}
+
+@media only screen and (max-height: 840px) {
+  .LetsTalk__Header_contaner {
+    height: 19.5%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 79%;
+  }
+}
+
+@media only screen and (max-height: 820px) {
+  .LetsTalk__Header_contaner {
+    height: 20%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 78.5%;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .LetsTalk__Header_contaner {
+    height: 20.5%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 77.8%;
+  }
+}
+
+@media only screen and (max-height: 780px) {
+  .LetsTalk__Header_contaner {
+    height: 21%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 77.5%;
+  }
+}
+
+@media only screen and (max-height: 760px) {
+  .LetsTalk__maincontent_left_infodate {
+    top: 12.5em !important;
+    left: -9em !important;
+    width: 24em !important;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-height: 765px) {
+  .LetsTalk__Header_contaner {
+    height: 21.5%;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 77%;
+    padding-top: 1em;
+  }
+}
+
+@media only screen and (max-height: 740px) {
+  .LetsTalk__Header_contaner {
+    height: 22.5%;
+  }
+
+  .LetsTalk__maincontent_wrapper {
+    height: 76%;
+  }
+}
+
+@media only screen and (max-height: 720px) {
+  .LetsTalk__Header_contaner {
+    height: 23%;
+  }
+
+  .LetsTalk__maincontent_wrapper {
+    height: 75%;
+  }
+}
+
+/* WIDTH MEDIA QUERIES  */
+@media only screen and (max-width: 1520px) {
+  .LetsTalk__maincontent_left_infodate {
+    top: 14.9em;
+    left: -12em;
+    width: 29em;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .LetsTalk__maincontent_left_infodate {
+    top: 13.9em;
+    left: -11em;
+    width: 27em;
+  }
+  .LetsTalk__maincontent_left_binary {
+    font-size: 10px;
+    word-spacing: 5px;
+    top: 22em;
+  }
+}
+
+@media only screen and (max-width: 1430px) {
+  .LetsTalk__maincontent_left_infodate {
+    top: 13.7em;
+    left: -10.5em;
+    width: 26.5em;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .LetsTalk__maincontent_left_infodate {
+    top: 13.1em;
+    left: -10em;
+    width: 25.2em;
+  }
+  .LetsTalk__maincontent_left_binary {
+    font-size: 9px;
+    word-spacing: 3px;
+    top: 21em;
+  }
+}
+/* MOBILE AND TABLET */
+@media only screen and (max-width: 950px) {
+  .LetsTalk__Header_contaner {
+    height: 24%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .LetsTalk__maincontent_wrapper {
+    height: 87%;
+  }
+
+  .LetsTalk__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 2em);
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .LetsTalkMobile__maincontent_left_infodate_container {
+    margin-top: 2em;
+    width: 99%;
+    margin-bottom: 1em;
+  }
+  .LetsTalkMobile__maincontent_left_infodate {
+    width: 95.2%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .LetsTalkMobile__maincontent_left_infodate_container {
+    margin-top: 2em;
+    width: 99%;
+    margin-bottom: 1em;
+  }
+  .LetsTalkMobile__maincontent_left_infodate {
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .LetsTalk__container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .LetsTalkMobile__maincontent_right_container {
+    margin-top: 2em;
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .LetsTalkMobile__maincontent_left_infodate {
+    width: 91%;
+  }
+}
+@media only screen and (max-width: 416px) {
+  .LetsTalkMobile__maincontent_left_infodate {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 377px) {
+  .LetsTalkMobile__maincontent_left_infodate {
+    width: 89%;
+  }
+}
+
+/* COMBINED QUERIES */
+
+@media only screen and (max-width: 950px), only screen and (max-width: 1000px) {
+  .LetsTalk__Header_contaner {
+    height: 12em;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 920px), only screen and (max-width: 1000px) {
+  .LetsTalk__Header_contaner {
+    height: 12.4em;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 870px), only screen and (max-width: 1000px) {
+  .LetsTalk__Header_contaner {
+    height: 12.6em;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-device-width: 1000px),
+  only screen and (max-device-height: 825px) {
+  .LetsTalk__Header_contaner {
+    height: 12.8em;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-device-height: 797px),
+  only screen and (max-device-width: 1000px) {
+  .LetsTalk__Header_contaner {
+    height: 13em;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-device-height: 735px),
+  only screen and (max-device-width: 1000px) {
+  .LetsTalk__Header_contaner {
+    height: 13.2em;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-device-width: 735px),
+  only screen and (max-device-height: 705px) {
+  .LetsTalk__Header_contaner {
+    height: 13.4em;
+    margin-bottom: 0;
+  }
+}

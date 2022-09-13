@@ -1,0 +1,353 @@
+.box__artists__container {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  /* height: 100%; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: right;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.box__artists__container:hover {
+  cursor: url("../../assets/images/arrowDown.svg"), auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.box__artist__wrapper {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__artist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.box__artist:nth-child(1) {
+  height: 50%;
+  border-bottom: 1px solid black;
+}
+
+.box__artist:nth-child(2) {
+  height: 50%;
+}
+
+.box__artist__upper {
+  display: flex;
+  width: 93%;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  font-weight: lighter;
+}
+
+.box__artis__upper_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.box__artist__upper_spanA {
+  font-family: "Aux Mono";
+  font-size: 2em;
+}
+
+.box__artist__upper_spanSlash {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+.box__artist__bottom {
+  display: flex;
+  width: 95%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.box__artist__bottom p {
+  margin: 0;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.box__carousel__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 20em;
+}
+
+.box__carousel__container a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
+
+.box__carousel__container img {
+  height: 150px;
+  width: 150px;
+}
+
+.box__artist__learmore {
+  display: flex;
+  width: 100%;
+  align-self: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Oxygen Mono";
+  font-size: 0.7em;
+  white-space: nowrap;
+}
+.box__artist__learmore a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+.box__artist__learmore img {
+  margin-left: 1em;
+  width: calc(50% - 1em);
+}
+
+.box__artist__line {
+  width: 100%;
+  border-top: 0.5px solid black;
+  height: 5px;
+}
+.box__artist__scroll {
+  height: 100%;
+  width: 5px;
+}
+.boxScroll__vertical_container {
+  border-left: 1px solid black;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.dot__vertical {
+  position: absolute;
+  background-color: black;
+  width: 5px;
+}
+
+.dot__vertical:nth-child(1) {
+  height: 15px;
+}
+
+.dot__vertical:nth-child(2) {
+  height: 25px;
+}
+
+.dot__vertical:nth-child(3) {
+  height: 20px;
+}
+
+.dot__vertical:nth-child(4) {
+  height: 10px;
+}
+
+.dot__vertical:nth-child(5) {
+  height: 28px;
+}
+
+/* HEIGHT MEDIA QUIERES */
+
+@media only screen and (max-height: 850px) {
+  .box__artist:nth-child(1) {
+    height: 48%;
+    border-bottom: 1px solid black;
+  }
+
+  .box__artist:nth-child(2) {
+    height: 48%;
+  }
+
+  .box__artist__upper {
+    display: flex;
+    width: 93%;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: lighter;
+    position: relative;
+  }
+
+  .box__artist__upper_spanA {
+    font-family: "Aux Mono";
+    font-size: 1.8em;
+  }
+
+  .box__artist__bottom {
+    display: flex;
+    width: 95%;
+    height: 70%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .box__carousel__container img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media only screen and (max-height: 772px) {
+  .box__artist__bottom {
+    display: flex;
+    width: 95%;
+    height: 70%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .box__carousel__container img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .box__artist__bottom p {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-height: 724px) {
+  .box__artist__bottom {
+    display: flex;
+    width: 95%;
+    height: 65%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .box__carousel__container img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .box__artist__bottom p {
+    font-size: 1.5em;
+  }
+}
+
+/* WIDTH MEDIA QUIERES */
+
+@media only screen and (max-width: 2000px) {
+  .box__artis__upper_wrap {
+    width: 28%;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  .box__artis__upper_wrap {
+    width: 29%;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .box__artis__upper_wrap {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .box__artis__upper_wrap {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .box__artis__upper_wrap {
+    width: 34%;
+  }
+}
+
+@media only screen and (max-width: 1490px) {
+  .box__artist__wrapper {
+    width: 99%;
+  }
+  .box__artis__upper_wrap {
+    width: 37%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .box__artis__upper_wrap {
+    width: 39%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .box__artis__upper_wrap {
+    width: 42%;
+  }
+}
+
+@media only screen and (max-width: 1214px) {
+  .box__artist__wrapper {
+    width: 98%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .box__artist__wrapper {
+    width: 98%;
+  }
+
+  .box__artist__learmore a {
+    font-size: 0.8em;
+  }
+  .box__artist__learmore img {
+    margin-left: 1em;
+    width: calc(50% - 1em);
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .box__artist__learmore a {
+    font-size: 0.7em;
+  }
+  .box__artist__bottom p {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 1065px) {
+  .box__artist__learmore a {
+    font-size: 0.6em;
+  }
+  .box__artist__learmore img {
+    margin-left: 0.8em;
+    width: calc(50% - 1.5em);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .box__artist__learmore a {
+    font-size: 0.5em;
+  }
+  .box__artist__learmore img {
+    margin-left: 0.8em;
+    width: calc(50% - 1.5em);
+  }
+}

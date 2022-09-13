@@ -1,0 +1,151 @@
+.FilterLock__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 3px dashed black;
+  background-color: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+  height: 100%;
+  width: 98%;
+  position: absolute;
+}
+
+.FilterLock__container div {
+  font-family: "Aux Mono";
+  font-size: 2em;
+  z-index: 1;
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 35%;
+  letter-spacing: 6.5px;
+  word-spacing: -20px;
+}
+
+.FilterLock__box {
+  width: 23%;
+  background: url("../../assets/images/border-text.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  background-position: 0px 1px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .FilterLock__box {
+    width: 27%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .FilterLock__container div {
+    left: 30%;
+  }
+  .FilterLock__box {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .FilterLock__container div {
+    left: 25%;
+  }
+  .FilterLock__box {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .FilterLock__box {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .FilterLock__box {
+    width: 37%;
+  }
+}
+
+@media only screen and (max-width: 1157px) {
+  .FilterLock__container div {
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .FilterLock__box {
+    width: 38%;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .FilterLock__container div {
+    left: 18%;
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .FilterLock__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 3px dashed black;
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    height: 100%;
+    width: 99%;
+    position: absolute;
+  }
+  .FilterLock__container div {
+    font-family: "Aux Mono";
+    font-size: 2em;
+    z-index: 1;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 35%;
+    letter-spacing: 6.5px;
+    word-spacing: -20px;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  .FilterLock__container div {
+    left: 30%;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .FilterLock__container div {
+    left: 25%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .FilterLock__container div {
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .FilterLock__container div {
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .FilterLock__container div {
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .FilterLock__container div {
+    left: 20%;
+    font-size: 1.5em;
+  }
+}

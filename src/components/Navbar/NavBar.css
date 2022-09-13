@@ -1,0 +1,279 @@
+.navbar {
+  height: 80px;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em 0 1em;
+  z-index: 2;
+}
+
+.navbar__absolute {
+  height: 80px;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em 0 1em;
+  z-index: 1;
+}
+
+.navbar__wrapper_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2em;
+}
+
+.navbar__logo_container {
+  width: 30px;
+  height: 30px;
+  margin-left: 2em;
+}
+
+.navbar__logo_container img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__folders {
+  height: 30px;
+  margin-left: 6em;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.navbar__about_focused {
+  background: url("../../assets/images/folder-black.png") !important;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: contain;
+  height: 25px;
+  width: 30px;
+  margin-right: 1em;
+  display: block;
+  font-family: "Oxygen Mono" !important;
+}
+
+.navbar__about_focused::after {
+  content: "About";
+  width: 100%;
+  color: #000;
+  /* font-size: 13px; */
+  font-size: 11px;
+
+  position: absolute;
+  top: 5em;
+}
+
+.navbar__design_focused {
+  background: url("../../assets/images/folder-black.png") !important;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: contain;
+  height: 25px;
+  width: 30px;
+  margin-right: 1em;
+  display: block;
+  font-family: "Oxygen Mono" !important;
+}
+
+.navbar__design_focused::after {
+  content: "D3sign";
+  width: 100%;
+  color: #000;
+  font-size: 11px;
+  position: absolute;
+  top: 5em;
+}
+
+.navbar__gallery_focused {
+  background: url("../../assets/images/folder-black.png") !important;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: contain;
+  height: 25px;
+  width: 30px;
+  margin-right: 1em;
+  display: block;
+  font-family: "Oxygen Mono" !important;
+}
+
+.navbar__gallery_focused::after {
+  content: "Gallery";
+  width: 100%;
+  color: #000;
+  font-size: 11px;
+  position: absolute;
+  top: 5em;
+}
+
+.navbar__studio_focused {
+  background: url("../../assets/images/folder-black.png") !important;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: contain;
+  height: 25px;
+  width: 30px;
+  margin-right: 1em;
+  display: block;
+  font-family: "Oxygen Mono" !important;
+}
+
+.navbar__studio_focused::after {
+  content: "Studio";
+  width: 100%;
+  color: #000;
+  font-size: 11px;
+  position: absolute;
+  top: 5em;
+}
+
+.navbar__folders a {
+  background: url("../../assets/images/folder.png");
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: contain;
+  height: 25px;
+  width: 30px;
+  margin-right: 1em;
+  display: block;
+  font-family: "Oxygen Mono" !important;
+}
+
+.navbar__folders a:hover {
+  background: url("../../assets/images/folder-gray.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: black;
+}
+
+.navbar__folders a:hover:nth-child(1):after {
+  content: "About";
+  width: 100%;
+  color: #000;
+  font-size: 11px;
+  position: absolute;
+  top: 5em;
+}
+.navbar__folders a:hover:nth-child(2):after {
+  content: "D3sign";
+  width: 100%;
+  color: #000;
+  font-size: 11px;
+  position: absolute;
+  top: 5em;
+}
+.navbar__folders a:hover:nth-child(3):after {
+  content: "Gallery";
+  width: 100%;
+  color: #000;
+  font-size: 11px;
+  position: absolute;
+  top: 5em;
+}
+.navbar__folders a:hover:nth-child(4):after {
+  content: "Studio";
+  width: 100%;
+  color: #000;
+  font-size: 11px;
+  position: absolute;
+  top: 5em;
+}
+
+.navbar__folders a:active {
+  background: url("../../assets/images/folder-black.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navbar__wrapper_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2em;
+}
+
+.navbar_lets_talk {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1px 1px 0;
+  margin-right: 2em;
+  background-color: black;
+}
+
+.navbar_lets_talk a {
+  text-decoration: none;
+  color: black;
+  font-family: "Cygnito Mono";
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  font-size: 11px;
+  color: white;
+  border: solid gray 1px;
+  padding: 2px;
+}
+.navbar_lets_talk a:hover {
+  color: black;
+  background-color: white;
+  border: solid black 1px;
+}
+
+.navbar__menu {
+  margin-right: 4em;
+}
+
+.navbar__menu a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-family: "Oxygen Mono";
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar__folders {
+    display: none;
+  }
+
+  .navbar__folders_focused {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .navbar__logo_container {
+    margin-left: 1em;
+  }
+  .navbar__menu {
+    margin-right: 3.5em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar__logo_container {
+    margin-left: 0em;
+  }
+  .navbar__logo_container {
+    margin-left: 0em;
+  }
+  .navbar__menu {
+    margin-right: 2em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .navbar_lets_talk {
+    margin-right: 1em;
+  }
+  .navbar__menu {
+    margin-right: 1em;
+  }
+}

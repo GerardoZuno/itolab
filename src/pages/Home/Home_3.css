@@ -1,0 +1,231 @@
+.Home_3__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../../assets/images/statuette.png");
+  background-position: 72% bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 3%;
+  background-size: 550px;
+}
+
+.Home_3__contain {
+  background: url("../../assets/images/border-text.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 0px 5px 0px 15px;
+}
+
+.Home_3__wrapper {
+  margin: 0px;
+  padding: 0px;
+  /* justify-content: space-between; */
+  width: 750px;
+  padding-bottom: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+.Home_3__box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home_3__phrase {
+  font-family: "Neue Montreal";
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 7px;
+}
+
+.Home_3__phrase_small {
+  font-family: "Aux Mono";
+  font-weight: lighter;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0px;
+  word-spacing: 3px;
+  margin-top: 1.5em;
+}
+
+@media only screen and (max-width: 1300px) {
+  .Home_3__phrase_small {
+    margin-bottom: 3em;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Home_3__container {
+    background-size: 500px;
+  }
+  .Home_3__phrase_small {
+    margin-bottom: 4em;
+  }
+
+  .Home_3__wrapper {
+    width: 720px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Home_3__container {
+    background-size: 500px;
+  }
+  .Home_3__phrase_small {
+    margin-bottom: 4em;
+  }
+
+  .Home_3__phrase {
+    font-size: 56px;
+    letter-spacing: 6px;
+  }
+
+  .Home_3__wrapper {
+    width: 680px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Home_3__container {
+    background-size: 480px;
+  }
+  .Home_3__phrase_small {
+    margin-bottom: 6em;
+    font-size: 13px;
+  }
+
+  .Home_3__phrase {
+    font-size: 56px;
+    letter-spacing: 6px;
+  }
+
+  .Home_3__wrapper {
+    width: 660px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Home_3__container {
+    background-size: 480px;
+  }
+  .Home_3__phrase_small {
+    margin-bottom: 7em;
+    font-size: 13px;
+  }
+
+  .Home_3__phrase {
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+
+  .Home_3__wrapper {
+    width: 620px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Home_3__container {
+    background-size: 460px;
+  }
+  .Home_3__contain {
+    padding: 0px 5px 0px 10px;
+  }
+  .Home_3__phrase_small {
+    margin-bottom: 7em;
+    font-size: 12px;
+  }
+
+  .Home_3__phrase {
+    font-size: 47px;
+    letter-spacing: 4px;
+  }
+
+  .Home_3__wrapper {
+    width: 590px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Home_3__container {
+    background-size: 420px;
+  }
+  .Home_3__phrase_small {
+    margin-bottom: 7em;
+    font-size: 11px;
+  }
+
+  .Home_3__phrase {
+    font-size: 42px;
+    letter-spacing: 4px;
+  }
+
+  .Home_3__wrapper {
+    width: 520px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Home_3__phrase_small {
+    margin-bottom: 7em;
+    font-size: 11px;
+  }
+
+  .Home_3__phrase {
+    font-size: 37px;
+    letter-spacing: 3px;
+  }
+
+  .Home_3__wrapper {
+    width: 475px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Home_3__contain {
+    padding: 0px 5px 0px 6px;
+  }
+  .Home_3__container {
+    background-size: 400px;
+  }
+
+  .Home_3__phrase_small {
+    margin-bottom: 7em;
+    font-size: 9.5px;
+    word-spacing: 0px;
+  }
+
+  .Home_3__phrase {
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .Home_3__wrapper {
+    width: 430px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Home_3__container {
+    background-size: 350px;
+  }
+  .Home_3__phrase_small {
+    font-size: 9px;
+  }
+
+  .Home_3__phrase {
+    font-size: 27px;
+    letter-spacing: 3px;
+  }
+
+  .Home_3__wrapper {
+    width: 340px;
+  }
+}

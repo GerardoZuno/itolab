@@ -1,0 +1,244 @@
+.FormBooking__container {
+  width: 100%;
+  height: 100%;
+}
+
+.FormBooking__wrapper {
+  border: 1px solid black;
+  height: calc(77% - 1em);
+  margin-bottom: 1em;
+  width: 100%;
+  min-height: 315px;
+  background: #ededed;
+  z-index: 1;
+  position: relative;
+}
+
+.FormBooking__buttons_container {
+  width: 90%;
+  display: flex;
+  position: relative;
+  top: -32px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2em;
+}
+
+.FormBooking__button_active {
+  border: 1px solid black;
+  position: relative;
+  border-bottom: 0;
+  height: 30px;
+  border-radius: 10px 10px 0 0;
+  padding: 0.1em 1em 0em 1em;
+  background: #ededed;
+  z-index: 2;
+  font-family: "Cygnito Mono";
+  color: #404040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.FormBooking__form_container {
+  width: 100%;
+  height: 100%;
+  height: calc(70% - 1em);
+  margin-bottom: 1em;
+}
+
+.FormBooking__form_container form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.FormBooking__form_wrapper {
+  width: 90%;
+  height: 100%;
+  margin: 0em 1em 0.8em 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FormBooking__form_upload {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  width: calc(50% - 2em);
+  height: 30px;
+
+  
+
+}
+
+.FormBooking__form_upload p {
+  margin: 0 1em 0 0;
+  font-family: "Cygnito Mono";
+  /* font-size: 0.8em; */
+  letter-spacing: 2px;
+  /* word-spacing: 10px; */
+  line-height: 1;
+  /* white-space: nowrap; */
+  
+ 
+  
+}
+
+.FormBooking__form_upload input[type="file"] {
+  position: absolute;
+  width: 20%;
+  opacity: 0;
+}
+
+.FormBooking__form_references {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: scroll;
+ 
+  
+
+}
+
+.FormBooking__form_reference {
+    margin-right: 20px;
+}
+
+
+.FormBooking__form_reference label{
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
+  font-family: "Cygnito Mono";
+
+  
+
+
+}
+
+
+
+.FormBooking__form_reference span {
+  position: absolute; 
+  right: 6px;
+}
+
+ 
+
+.FormBooking__form_wrapper_area {
+  width: 100%;
+  height: 60px;
+  border: 1.39483px solid #8e8e8e;
+  box-shadow: inset 2.09225px -2.78967px 1.39483px #e9e9e9,
+    inset 2.09225px 2.09225px 1.39483px #000000;
+  outline: none;
+  padding: 10px 0 0 0.5em;
+}
+
+.FormBooking__form_button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.FormBooking__form_button > button {
+  border-left: 2px solid black;
+  border-right: 4px solid black;
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  width: 20%;
+  font-family: "Cygnito Mono";
+  box-shadow: inset 2.09225px -2.78967px 1.39483px gray,
+    inset 2.09225px 2.09225px 1.39483px #000;
+}
+
+/* HEIGHT MEDIA QUERIES */
+
+@media only screen and (max-height: 885px) {
+  .FormBooking__form_container form {
+    margin: -0.8em 0 0 0;
+  }
+}
+
+/* WIDTH MEDIA QUERIES */
+
+@media only screen and (max-width: 1837px) {
+  .FormBooking__form_upload p {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 1720px) {
+  .FormBooking__form_upload p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+  .FormBooking__form_upload {
+    width: calc(50% - 1.9em);
+  }
+}
+
+@media only screen and (max-width: 1630px) {
+  .FormBooking__form_upload p {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 1475px) {
+  .FormBooking__form_upload p {
+    font-size: 0.6em;
+  }
+  .FormBooking__form_upload {
+    width: calc(50% - 1.6em);
+  }
+  .FormBooking__form_upload img {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 1305px) {
+  .FormBooking__form_upload img {
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .FormBooking__form_upload img {
+    width: 23px;
+  }
+  .FormBooking__form_upload p {
+    font-size: 0.55em;
+  }
+  .FormBooking__form_upload {
+    width: calc(50% - 1.2em);
+  }
+}
+
+.FormBooking__error {
+  font-family: "Oxygen Mono";
+  font-size: 11px;
+  margin-right: 10px;
+  color: rgba(0, 0, 0, .8);
+}
+
+
+@media only screen and (max-width: 480px) {
+  .FormBooking__error {
+    font-family: "Oxygen Mono";
+    font-size: 8px;
+    margin-right: 10px;
+  } 
+
+}

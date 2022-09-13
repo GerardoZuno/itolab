@@ -1,0 +1,115 @@
+.StudioSmall__container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.StudioSmall__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 2em);
+  width: 100%;
+}
+
+.StudioSmall__Header_contaner {
+  height: 12em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.StudioSmall__maincontent_wrapper {
+  padding-bottom: 1em;
+  margin-top: 0.8em;
+  height: calc(100% - 10.5em);
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.StudioSmall__section_1 {
+  width: 100%;
+}
+
+.StudioSmall__section_1 > h3 {
+  font-family: "Neue Montreal";
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  white-space: nowrap;
+}
+.StudioSmall__section_1 p {
+  font-family: "Oxygen Mono";
+
+  font-size: 0.8em;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.StudioSmall__section_1 p:nth-child(2) {
+  text-align: justify;
+  font-family: "Aux Mono";
+}
+
+.StudioSmall__section_2 {
+  width: 100%;
+}
+
+.StudioSmall__section_2 p {
+  font-family: "Oxygen Mono";
+
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+.StudioSmall__section_2 p:nth-child(1) {
+  font-weight: 500;
+  font-family: "Aux Mono";
+}
+
+.StudioSmall__section_3 {
+  width: 100%;
+  height: 100%;
+}
+
+.StudioSmall__box {
+  background-color: black;
+  color: white;
+}
+
+/* HEIGTH MEDIA QURIES */
+@media only screen and (max-height: 670px) {
+  .StudioSmall__Header_contaner {
+    height: 12.2em;
+  }
+}
+
+@media only screen and (max-height: 595px) {
+  .StudioSmall__Header_contaner {
+    height: 12.5em;
+  }
+}
+
+/* WIDTH MEDIA QUERIES */
+@media only screen and (max-width: 545px) {
+  .StudioSmall__Header_contaner {
+    height: 12.7em;
+  }
+
+  .StudioSmall__section_1 p {
+    font-size: 0.7em;
+  }
+
+  .StudioSmall__section_2 p {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .StudioSmall__Header_contaner {
+    height: 13.5em;
+  }
+}

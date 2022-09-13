@@ -1,0 +1,458 @@
+.Artist__container {
+  width: 79%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.Artist__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 3em);
+  width: 100%;
+}
+
+.Artist__Header__container {
+  height: 9.5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Artist__content_wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Artist__content_wrapper > p {
+  margin: 0.5em 0 0.5em 0;
+  /* margin: 0.5em; */
+  font-family: "Neue Montreal";
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.Artist__box_container {
+  width: 100%;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.Artist__box_header {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  border-bottom: 1px solid black;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.Artist__box_header_content {
+  width: 100%;
+  font-size: 19px;
+  white-space: nowrap;
+  text-align: center;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+.Artist__box_wrapper_content {
+  width: 100%;
+  height: calc(100% - 3em);
+  display: flex;
+  justify-content: space-between;
+}
+
+.Artist__content_left {
+  margin: 0.5em 0em 1em 1em;
+  width: 30%;
+  height: calc(100% - 1em);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.Artist__card_container {
+  width: 100%;
+  height: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  position: relative;
+  display: flex;
+}
+
+.Artist_float_numbers {
+  margin: 0;
+  padding: 0;
+  color: black;
+  margin-right: 2em;
+  font-size: 0.7em;
+  height: 3%;
+  font-family: "Oxygen Mono";
+}
+
+.Artist_float_code {
+  position: relative;
+  left: 0;
+  top: 46em;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: black;
+  font-size: 0.6em;
+  font-family: "Oxygen Mono";
+  transform: rotate(270deg);
+}
+.Artist__content_right {
+  margin: 1em 8em 1em 0em;
+  width: 60%;
+  height: calc(100% - 3em);
+  flex-direction: column;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.Artist__content_right_content {
+  height: 90%;
+  width: 100%;
+}
+
+.Artist__content_right_content p {
+  font-family: "Oxygen Mono";
+  word-spacing: 5px;
+  font-size: 25px;
+  text-align: justify;
+  line-height: 1.4;
+  width: 100%;
+}
+
+.Artist__content_right_content_button {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 10em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1px 1px 0;
+}
+
+.Artist__content_right_content_button a {
+  text-decoration: none;
+  color: black;
+  font-family: "Cygnito Mono";
+  font-size: 14px;
+  color: #404040;
+  border: solid gray 1px;
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  text-align: center;
+  display: block;
+}
+
+.Artist__content_right_bottom {
+  margin-top: 1.8em;
+  display: flex;
+  height: 10%;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.Artist__content_right_bottom img {
+  width: 100%;
+  height: 100%;
+}
+
+.Artist__content_img {
+  width: 150px;
+  height: 35px;
+}
+
+/* HEIGHT MEDIA QUERIES */
+
+@media only screen and (max-height: 1165px) {
+  .Artist__box_container {
+    border: 1px solid black;
+    height: calc(100% - 5em);
+  }
+  .Artist__content_wrapper {
+    height: 83%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-height: 935px) {
+  .Artist__box_container {
+    border: 1px solid black;
+    height: calc(100% - 5em);
+  }
+  .Artist__content_wrapper {
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Artist__content_right_content p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-height: 875px) {
+  .Artist__content_right_content p {
+    font-size: 20px;
+  }
+  .Artist__content_right_content_button {
+    width: 9em;
+    height: 1.8em;
+  }
+}
+
+@media only screen and (max-height: 840px) {
+  .Artist_float_code {
+    top: 46em;
+    font-size: 0.5em;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .Artist__box_container {
+    border: 1px solid black;
+    height: calc(100% - 5em);
+  }
+  .Artist__content_wrapper {
+    height: 78%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-height: 760px) {
+  .Artist__content_wrapper > p {
+    font-size: 30px;
+  }
+  .Artist__box_container {
+    border: 1px solid black;
+    height: calc(100% - 4em);
+  }
+  .Artist__box_header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 2.5em;
+    border-bottom: 1px solid black;
+    overflow-x: hidden;
+    position: relative;
+  }
+  .Artist_float_code {
+    top: 46em;
+    font-size: 7px;
+  }
+}
+
+@media only screen and (max-height: 730px) {
+  .Artist_float_code {
+    top: 46em;
+    font-size: 6px;
+  }
+}
+/* WIDTH MEDIA QUIERES */
+
+@media only screen and (max-width: 2396px) {
+  .Artist__content_right {
+    margin: 1em 5em 1em 0em;
+    width: 62%;
+  }
+}
+
+@media only screen and (max-width: 2319px) {
+  .Artist__content_right {
+    margin: 1em 2em 1em 0em;
+    width: 65%;
+  }
+
+  .Artist__content_right_content p {
+    word-spacing: 3px;
+    font-size: 14px;
+  }
+
+  .Artist__box_header_content {
+    word-spacing: 4px;
+  }
+}
+
+@media only screen and (max-width: 2185px) {
+  .Artist__box_header_content {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 2015px) {
+  .Artist__box_header_content {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1925px) {
+  .Artist__box_header_content {
+    word-spacing: 3px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1822px) {
+  .Artist__box_header_content {
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .Artist__box_header_content {
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1495px) {
+  .Artist__content_right {
+    margin: 1em 1em 1em 0em;
+  }
+
+  .Artist__content_right_content p {
+    word-spacing: 2px;
+    font-size: 13px;
+  }
+  .Artist__content_right_content_button {
+    width: 8em;
+    height: 1.5em;
+  }
+
+  .Artist__content_right_content_button a {
+    font-size: 13px;
+  }
+  .Artist__content_img {
+    width: 120px;
+    height: 28px;
+  }
+  .Artist__box_header {
+    width: 100%;
+    height: 2em;
+  }
+
+  .Artist__box_header_content {
+    width: 100%;
+    font-size: 12px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 1460px) {
+  .Artist__box_header_content {
+    font-size: 12px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 1369px) {
+  .Artist__content_right_content p {
+    word-spacing: 2px;
+    font-size: 12px;
+  }
+  .Artist__content_right_content_button {
+    width: 7em;
+    height: 1.3em;
+  }
+
+  .Artist__content_right_content_button a {
+    font-size: 12px;
+  }
+
+  .Artist__content_img {
+    width: 110px;
+    height: 25px;
+  }
+  .Artist__box_header {
+    height: 1.5em;
+  }
+
+  .Artist__box_header_content {
+    font-size: 11px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 1352px) {
+  .Artist__box_header_content {
+    font-size: 11px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+  }
+}
+@media only screen and (max-width: 1162px) {
+  .Artist__box_header_content {
+    font-size: 11px;
+    word-spacing: 3px;
+    letter-spacing: 0px;
+  }
+}
+@media only screen and (max-width: 1078px) {
+  .Artist__content_right_content p {
+    word-spacing: 2px;
+    font-size: 11px;
+  }
+
+  .Artist__content_right_content_button {
+    width: 6em;
+    height: 1em;
+  }
+
+  .Artist__content_right_content_button a {
+    font-size: 10px;
+  }
+  .Artist__content_img {
+    width: 100px;
+    height: 20px;
+  }
+  .Artist__box_header {
+    height: 1.5em;
+  }
+
+  .Artist__box_header_content {
+    font-size: 11px;
+    word-spacing: 3px;
+    letter-spacing: 0px;
+  }
+}
+
+@media only screen and (max-width: 1004px) {
+  .Artist__box_header_content {
+    font-size: 10px;
+    word-spacing: 3px;
+    letter-spacing: 0px;
+  }
+}

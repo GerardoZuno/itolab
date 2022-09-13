@@ -1,0 +1,428 @@
+.menu__link {
+  color: black;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: "Oxygen Mono";
+  cursor: pointer;
+  width: 200px;
+  max-width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__container {
+  background: #ededed;
+  border: 3px solid #8e8e8e;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  max-width: 100%;
+  height: 480px;
+  display: flex;
+  font-size: 11px;
+  font-family: "Oxygen Mono";
+  z-index: 3;
+}
+
+.menu__sidebar {
+  height: 100%;
+  width: 50px;
+  max-width: 100%;
+
+  border-right: 3px solid #8e8e8e;
+}
+
+.menu__navbar {
+  width: 200px;
+  max-width: 100%;
+  height: 100%;
+}
+
+.menu__navbar_border {
+  position: absolute;
+  z-index: -1;
+  width: 307px;
+  height: 577px;
+  right: -5px;
+  bottom: -5px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.menu__wrapper_home {
+  width: 200px;
+  max-width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #8e8e8e;
+  display: flex;
+  align-items: center;
+}
+
+.menu__home {
+  width: 200px;
+
+  max-width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__home:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.menu__home:hover .menu__link {
+  color: white;
+}
+
+.menu__pages div {
+  width: 200px;
+
+  max-width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__pages_border {
+  position: absolute;
+  z-index: -1;
+  width: 210px;
+  height: 577px;
+  right: -5px;
+  bottom: -5px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.menu__pages .menu__aboutUs {
+  height: 50px;
+  width: 200px;
+
+  max-width: 100%;
+}
+
+.menu__aboutUs .submenu {
+  display: none;
+}
+
+.menu__aboutUs:hover .submenu {
+  display: block;
+}
+
+.menu__aboutUs:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.menu__pages .menu__ito3dsgn {
+  height: 50px;
+  width: 200px;
+
+  max-width: 100%;
+}
+
+.menu__ito3dsgn .submenu {
+  display: none;
+}
+
+.menu__ito3dsgn:hover .submenu {
+  display: block;
+}
+
+.menu__ito3dsgn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.menu__pages .menu__itoGallery {
+  height: 50px;
+  width: 200px;
+
+  max-width: 100%;
+}
+
+.menu__itoGallery .submenu {
+  display: none;
+}
+
+.menu__itoGallery:hover .submenu {
+  display: block;
+}
+
+.menu__itoGallery:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.menu__pages .menu__itoStudio {
+  height: 50px;
+  width: 200px;
+
+  max-width: 100%;
+}
+
+.menu__itoStudio .submenu {
+  display: none;
+}
+
+.menu__itoStudio:hover .submenu {
+  display: block;
+}
+
+.menu__itoStudio:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.menu__itoStudio:hover .menu__link {
+  color: white;
+  background-color: black;
+}
+
+.menu__pages .menu__letsTalk {
+  height: 50px;
+  width: 200px;
+  margin-top: -10px;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.menu__letsTalk:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.menu__letsTalk:hover .menu__link {
+  color: white;
+}
+
+.menu__page_lets {
+  margin-right: 50px;
+}
+
+.navbar__folders a:hover {
+  background: url("../../assets/images/folder-gray.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navbar__folders a:active {
+  background: url("../../assets/images/folder-black.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.menu__home_icon {
+  width: 32px;
+
+  height: 21px;
+  margin-left: 30px;
+}
+
+.menu__home_title {
+  margin-right: 25px;
+}
+
+.menu__icon_folder {
+  width: 32px;
+
+  height: 21px;
+  margin-left: 30px;
+}
+
+.menu__pages .menu__wrapper_letsTalk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+}
+
+.menu__icon_nextPage {
+  height: 12px;
+  width: 15px;
+  margin-right: 10px;
+}
+.menu__pages .menu___socialMedia {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-top: -25px;
+}
+
+.menu__pages .menu__socialMedia_icon {
+  height: 50px;
+  width: 30px;
+  margin-top: 40px;
+  margin-right: 15px;
+}
+
+.menu__icon_twitter {
+  width: 23px;
+  height: 18px;
+}
+
+.menu__icon_instagram {
+  width: 23px;
+  height: 18px;
+}
+
+.menu__icon_frame {
+  width: 23px;
+  height: 18px;
+}
+
+/* SubMenu */
+
+.submenu {
+  width: 200px;
+
+  max-width: 100%;
+  height: 480px;
+  position: absolute;
+  top: -3px;
+  right: -203px;
+  border: 3px solid #8e8e8e;
+  background: #ededed;
+  font-size: 10px;
+}
+
+.subMenu__icon {
+  width: 32px;
+
+  height: 25px;
+  margin-right: 15px;
+}
+
+.folder {
+  position: relative;
+}
+
+.subMenu__ito3dsgn,
+.subMenu__itoGallery,
+.subMenu__itoStudio,
+.subMenu__aboutUs {
+  width: 200px;
+
+  max-width: 100%;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.subMenu__itoStudio a {
+  text-decoration: none;
+}
+
+.subMenu__ito3dsgn_art,
+.subMenu__itoGallery_NFT,
+.subMenu__itoStudio_Rodrigo,
+.subMenu__aboutUs_blog {
+  padding-left: 30px;
+  display: flex;
+  margin-bottom: 15px;
+  height: 50px;
+  align-items: center;
+}
+
+.subMenu__itoGallery_NFT {
+  padding-right: 0;
+  padding-left: 0;
+  justify-content: space-between;
+}
+
+.subMenu__itoGallery_NFT .submenu__wrapper_NFT {
+  width: 200px;
+  max-width: 100%;
+  height: 480px;
+  position: absolute;
+  top: -23px;
+  right: -197px;
+  border: 3px solid #8e8e8e;
+  font-size: 10px;
+  background: #ededed;
+
+  display: none;
+}
+
+.subMenu__itoGallery_NFT:hover .submenu__wrapper_NFT {
+  display: block;
+}
+
+.submenu__NFT {
+  width: 200px;
+  max-width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+.submenu__NFT:hover {
+  background-color: unset;
+}
+
+.submenu__NFT_isia {
+  width: 36px;
+  height: 10px;
+  margin-right: 15px;
+}
+
+.submenu__NFT_isia2 {
+  width: 25px;
+  height: 18px;
+}
+
+.submenu__NFT_vector {
+  width: 22px;
+  height: 23px;
+  margin-right: 15px;
+}
+
+.submenu__NFT_kosmovisiones {
+  width: 79px;
+  height: 18px;
+}
+
+.subMenu__ito3dsgn_branding,
+.subMenu__itoGallery_events,
+.subMenu__itoStudio_Andres {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  height: 50px;
+}
+
+.subMenu__itoGallery_events {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.subMenu__title_events {
+  margin-left: 25px;
+}
+
+.subMenu__icon_gallery {
+  margin-left: 30px;
+  width: 32px;
+
+  height: 25px;
+}
+
+@media only screen and (max-height: 1430px) {
+}

@@ -1,0 +1,446 @@
+.ItoStudio__container {
+  width: 79%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/images/tatoo-machine.svg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.ItoStudio__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 4.5em);
+  width: 100%;
+}
+
+.ItoStudio__Header__container {
+  height: 10.5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.ItoStudio__content_wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ItoStudio__left__container {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 580px;
+}
+
+.ItoStudio__right__container {
+  width: 48%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.ItoStudio__subtitle__container {
+  font-family: "Neue Montreal";
+  font-size: 30px;
+  font-weight: bold;
+  white-space: nowrap;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+  text-align: start;
+  width: 100%;
+}
+
+.ItoStudio__subtitle__container a {
+  text-decoration: none;
+}
+.ItoStudio__subtitle__box {
+  background-color: black;
+  color: white;
+}
+
+.ItoStudio__subtitle__anchor {
+  font-weight: lighter;
+  color: #313131;
+}
+
+.ItoStudio__text__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ItoStudio__text__left {
+  width: 48%;
+  font-family: "Aux Mono";
+  font-size: 17px;
+  text-align: justify;
+}
+
+.ItoStudio__text__right {
+  width: 48%;
+  font-family: "Aux Mono";
+  font-size: 17px;
+  text-align: justify;
+}
+
+.ItoStudio__portal__container {
+  position: relative;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.ItoStudio__portal__wrapper {
+  /* height: auto; */
+  /* width: auto; */
+  position: absolute;
+  left: 351.6vw;
+  top: 39%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background: transparent;
+}
+
+/* HEIGHT MEDIA QUERIES */
+
+@media only screen and (max-height: 1430px) {
+  .ItoStudio__Header__container {
+    height: 11em;
+  }
+}
+
+@media only screen and (max-height: 1330px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 38.5%;
+  }
+}
+
+@media only screen and (max-height: 1270px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 38%;
+  }
+}
+
+@media only screen and (max-height: 1180px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 37%;
+  }
+}
+
+@media only screen and (max-height: 1120px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 36%;
+  }
+}
+
+@media only screen and (max-height: 1110px) {
+  .ItoStudio__Header__container {
+    height: 11.2em;
+  }
+}
+
+@media only screen and (max-height: 1050px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 35.5%;
+  }
+}
+
+@media only screen and (max-height: 1010px) {
+  .ItoStudio__Header__container {
+    height: 11.5em;
+  }
+}
+
+@media only screen and (max-height: 1000px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 35%;
+  }
+}
+
+@media only screen and (max-height: 970px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 34%;
+  }
+}
+
+@media only screen and (max-height: 930px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 33.5%;
+  }
+}
+
+@media only screen and (max-height: 920px) {
+  .ItoStudio__Header__container {
+    height: 11.7em;
+  }
+}
+
+@media only screen and (max-height: 890px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 33%;
+  }
+}
+
+@media only screen and (max-height: 860px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 32%;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .ItoStudio__Header__container {
+    height: 11.9em;
+  }
+  .ItoStudio__portal__container {
+    height: 90%;
+    width: 100%;
+    z-index: 10;
+  }
+}
+
+@media only screen and (max-height: 830px) {
+  .ItoStudio__portal__wrapper {
+    left: 351.6vw;
+    top: 31.5%;
+  }
+}
+
+@media only screen and (max-height: 803px) {
+  .ItoStudio__left__container {
+    height: 550px;
+  }
+
+  .ItoStudio__right__container {
+    height: 550px;
+  }
+
+  .ItoStudio__subtitle__container {
+    font-size: 26px;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+  }
+
+  .ItoStudio__artists__container {
+    height: 400px;
+    width: 100%;
+  }
+
+  .ItoStudio__artist__bottom {
+    margin-bottom: 0.5em;
+  }
+  .ItoStudio__artist__upper {
+    margin-bottom: 0em;
+  }
+}
+
+@media only screen and (max-height: 772px) {
+  .ItoStudio__Header__container {
+    height: 12em;
+  }
+
+  .ItoStudio__carousel__container img {
+    height: 130px;
+    width: 130px;
+  }
+
+  .ItoStudio__left__container {
+    height: 500px;
+  }
+
+  .ItoStudio__right__container {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-height: 760px) {
+  .ItoStudio__Header__container {
+    height: 12.4em;
+  }
+
+  .ItoStudio__carousel__container img {
+    height: 130px;
+    width: 130px;
+  }
+
+  .ItoStudio__left__container {
+    height: 500px;
+  }
+
+  .ItoStudio__right__container {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-height: 724px) {
+  .ItoStudio__Header__container {
+    height: 12.4em;
+  }
+
+  .ItoStudio__carousel__container img {
+    height: 110px;
+    width: 110px;
+  }
+
+  .ItoStudio__left__container {
+    height: 450px;
+  }
+
+  .ItoStudio__right__container {
+    height: 450px;
+  }
+
+  .ItoStudio__subtitle__container {
+    font-size: 24px;
+  }
+
+  .ItoStudio__text__left {
+    font-size: 15px;
+  }
+
+  .ItoStudio__text__right {
+    font-size: 15px;
+  }
+
+  .ItoStudio__portal__wrapper {
+    top: 35%;
+  }
+}
+
+@media only screen and (max-height: 690px) {
+  .ItoStudio__Header__container {
+    height: 12.6em;
+  }
+}
+
+/* WIDTH MEDIA QUERIES */
+
+@media only screen and (max-width: 2270px) {
+  .ItoStudio__artis__upper_wrap {
+    width: 26%;
+  }
+}
+@media only screen and (max-width: 2110px) {
+  .ItoStudio__artis__upper_wrap {
+    width: 27%;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  .ItoStudio__artis__upper_wrap {
+    width: 28%;
+  }
+}
+
+@media only screen and (max-width: 1890px) {
+  .ItoStudio__artis__upper_wrap {
+    width: 29%;
+  }
+}
+
+@media only screen and (max-width: 1850px) {
+  .ItoStudio__artis__upper_wrap {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1780px) {
+  .ItoStudio__artis__upper_wrap {
+    width: 31%;
+  }
+}
+
+@media only screen and (max-width: 1670px) {
+  .ItoStudio__artis__upper_wrap {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .ItoStudio__artis__upper_wrap {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 1557px) {
+  .ItoStudio__subtitle__container {
+    font-size: 22px;
+  }
+
+  .ItoStudio__text__left {
+    font-size: 14px;
+  }
+
+  .ItoStudio__text__right {
+    font-size: 14px;
+  }
+  .ItoStudio__artis__upper_wrap {
+    width: 36%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .ItoStudio__artis__upper_wrap {
+    width: 37%;
+  }
+}
+
+@media only screen and (max-width: 1430px) {
+  .ItoStudio__artis__upper_wrap {
+    width: 39%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .ItoStudio__subtitle__container {
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .ItoStudio__subtitle__container {
+    font-size: 18px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .ItoStudio__subtitle__container {
+    font-size: 21px;
+  }
+
+  .ItoStudio__text__left {
+    font-size: 13px;
+  }
+
+  .ItoStudio__text__right {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .ItoStudio__subtitle__container {
+    font-size: 18px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+  }
+}

@@ -1,0 +1,125 @@
+.container__lamp {
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 6px;
+  width: 100%;
+  position: relative;
+}
+
+.dot__wrapper {
+  position: absolute;
+  top: 2px;
+  list-style: none;
+  width: 20%; /*split in 5 screens */
+  filter: url("#goo");
+}
+
+.dot__wrapper li {
+  position: absolute;
+  height: 2px;
+  width: 2px;
+  padding: 0;
+  margin: 0;
+  border-radius: 30%;
+  outline: black solid;
+}
+.dot__wrapper li:nth-child(1) {
+  width: 13px;
+  border-radius: 35%;
+
+  left: 0em;
+  background: black;
+  /* animation: gooey-reverse-loop 17s infinite; */
+}
+
+.dot__wrapper li:nth-child(2) {
+  left: 0em;
+  background: black;
+  /* animation: gooey-loop 17s infinite; */
+}
+
+.dot__wrapper li:nth-child(3) {
+  width: 11px;
+  border-radius: 30%;
+
+  left: 0em;
+  background: black;
+  /* animation: gooey-loop 13s infinite; */
+}
+.dot__wrapper li:nth-child(4) {
+  left: 0em;
+  background: black;
+  /* animation: gooey-reverse-loop 13s infinite; */
+}
+
+.dot__wrapper li:nth-child(5) {
+  width: 8px;
+
+  left: 0em;
+  background: black;
+  /* animation: gooey-loop 15s infinite; */
+}
+
+.dot__wrapper li:nth-child(6) {
+  width: 8px;
+
+  left: 0em;
+  background: black;
+  /* animation: gooey-loop 8s infinite; */
+}
+
+.dot__wrapper li:nth-child(7) {
+  width: 8px;
+
+  left: 0em;
+  background: black;
+  /* animation: gooey-reverse-loop 20s infinite; */
+}
+
+/* @keyframes gooey {
+  0% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(250px);
+  }
+} */
+
+/* @keyframes gooey-loop {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    -webkit-transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+} */
+
+/* @keyframes gooey-reverse {
+  0% {
+    transform: translateX(250px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+} */
+
+/* @keyframes gooey-reverse-loop {
+  0% {
+    transform: translateX(100%);
+  }
+
+  50% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+} */

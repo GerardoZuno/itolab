@@ -1,0 +1,239 @@
+.Appointment__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 79%;
+}
+
+.Appointment__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 2em);
+  width: 100%;
+}
+
+.Appointment__header_container {
+  height: 9.4em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Appointment__content_wrapper {
+  height: calc(100% - 9.4em);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Appointment__content_wrapper > p {
+  font-family: "Aux Mono";
+  font-size: 30px;
+  margin: 0 0 0.4em 1.5em;
+}
+
+.Appointment__content_container {
+  width: 100%;
+  max-height: 585px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Appointment__left_container {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Appointment__right_container {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Appointment__left_wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Appointment__left_date {
+  transform: rotate(270deg);
+  position: relative;
+  top: 2em;
+  left: 0;
+  width: 5%;
+  font-family: "Oxygen Mono";
+  white-space: nowrap;
+}
+
+.Appointment__left_form {
+  height: 90%;
+  width: 85%;
+}
+
+.Appointment__left_infodate_container {
+  position: relative;
+  width: 10%;
+}
+
+.Appointment__left_infodate {
+  transform: rotate(270deg);
+  top: -0.5em;
+  left: -12.7em;
+  width: 30.9em;
+  position: absolute;
+}
+
+.Appointment__right_wrapper {
+  height: 100%;
+  max-height: 580px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* HEIGHT MEDIA QUERIES  */
+
+/* @media only screen and (max-height: 885px) {
+  .Appointment__content_wrapper > p {
+    font-size: 28px;
+  }
+  .Appointment__left_infodate {
+    top: -1.5em;
+    left: -11.8em;
+    width: 28.6em;
+    position: absolute;
+  }
+} */
+
+@media only screen and (max-height: 860px) {
+  .Appointment__content_wrapper > p {
+    font-size: 25px;
+  }
+
+  .Appointment__content_wrapper {
+    height: calc(100% - 9.4em);
+  }
+
+  .Appointment__content_container {
+    height: calc(100% - 80px);
+  }
+
+  .Appointment__left_wrapper {
+    align-items: flex-start;
+    margin-top: 3em;
+  }
+  .Appointment__right_wrapper {
+    align-items: flex-start;
+    margin-top: 3em;
+  }
+
+  .Appointment__left_infodate {
+    top: 15.8em;
+    left: -12.7em;
+    width: 30.5em;
+  }
+
+  .Appointment__left_date {
+    top: 17.5em;
+  }
+}
+
+@media only screen and (max-height: 830px) {
+  .Appointment__left_infodate {
+    top: 15.5em;
+    left: -12.5em;
+    width: 30em;
+  }
+}
+
+@media only screen and (max-height: 820px) {
+  .Appointment__left_infodate {
+    top: 15.3em;
+    left: -12.4em;
+    width: 29.6em;
+  }
+}
+
+@media only screen and (max-height: 810px) {
+  .Appointment__left_infodate {
+    top: 15.1em;
+    left: -12.3em;
+    width: 29.2em;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .Appointment__left_infodate {
+    top: 14.9em;
+    left: -11.8em;
+    width: 28.8em;
+  }
+}
+
+@media only screen and (max-height: 790px) {
+  .Appointment__left_infodate {
+    top: 14.7em;
+    left: -11.8em;
+    width: 28.6em;
+  }
+}
+
+@media only screen and (max-height: 780px) {
+  .Appointment__left_infodate {
+    top: 14.4em;
+    left: -11.2em;
+    width: 28em;
+  }
+}
+
+@media only screen and (max-height: 770px) {
+  .Appointment__left_infodate {
+    top: 14.2em;
+    left: -11em;
+    width: 27.5em;
+  }
+}
+
+@media only screen and (max-height: 760px) {
+  .Appointment__left_infodate {
+    top: 12.7em;
+    left: -9.5em;
+    width: 24.5em;
+  }
+
+  .Appointment__left_date {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-height: 750px) {
+  .Appointment__left_infodate {
+    top: 12.5em;
+    left: -9.3em;
+    width: 24.2em;
+  }
+
+  .Appointment__left_date {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-height: 740px) {
+  .Appointment__left_infodate {
+    top: 12.3em;
+    left: -9.3em;
+    width: 23.9em;
+  }
+}

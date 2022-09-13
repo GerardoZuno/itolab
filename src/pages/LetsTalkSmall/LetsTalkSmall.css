@@ -1,0 +1,305 @@
+.LetsTalkSmall__container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.LetsTalkSmall__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 2em);
+  width: 100%;
+}
+
+.LetsTalkSmall__Header_contaner {
+  height: 12.5em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.LetsTalkSmall__maincontent_wrapper {
+  padding-top: 2.5em;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.LetsTalkSmall__maincontent_left_container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.LetsTalkSmall__maincontent_left_binary {
+  width: 4%;
+  transform: rotate(270deg);
+  font-size: 8px;
+  word-spacing: 2px;
+  font-family: "Oxygen Mono";
+  font-weight: lighter;
+  white-space: nowrap;
+  position: relative;
+  top: 21em;
+}
+
+.LetsTalkSmall__maincontent_left_form {
+  width: 95%;
+  height: 100%;
+}
+
+.LetsTalkSmall__maincontent_right_container {
+  margin-top: 2em;
+  width: 99%;
+}
+
+.LetsTalkSmall__maincontent_left_infodate_container {
+  margin-top: 2em;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.LetsTalkSmall__maincontent_left_infodate {
+  width: 97.2%;
+}
+
+/**************************************/
+/** WIDTH MEDIA QUERIES  **/
+/**************************************/
+
+@media only screen and (max-width: 796px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 97%;
+  }
+}
+
+@media only screen and (max-width: 737px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 96.6%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 96.2%;
+  }
+}
+
+@media only screen and (max-width: 571px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 95.5%;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 95.2%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .LetsTalkSmall__maincontent_right_container {
+    width: 97%;
+  }
+}
+
+@media only screen and (max-width: 451px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 95%;
+  }
+  .LetsTalkSmall__maincontent_right_container {
+    width: 98.5%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .LetsTalkSmall__maincontent_right_container {
+    margin-top: 2em;
+    width: 98%;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 89.5%;
+  }
+}
+
+@media only screen and (max-width: 394px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 89%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 88.5%;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .LetsTalkSmall__maincontent_left_infodate {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 358px) {
+}
+/**************************************/
+/** HEIGHT MEDIA QUERIES **/
+/**************************************/
+
+@media only screen and (max-height: 1260px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 12.6em;
+  }
+}
+@media only screen and (max-height: 1210px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 12.8em;
+  }
+}
+
+@media only screen and (max-height: 1070px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 12.9em;
+  }
+}
+
+@media only screen and (max-height: 1030px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 13.3em;
+  }
+}
+
+@media only screen and (max-height: 970px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 13.5em;
+  }
+}
+
+@media only screen and (max-height: 910px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 13.8em;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 14em;
+  }
+}
+
+@media only screen and (max-height: 815px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 14.2em;
+  }
+}
+
+@media only screen and (max-height: 785px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 14.4em;
+  }
+}
+
+@media only screen and (max-height: 750px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 14.6em;
+  }
+}
+
+@media only screen and (max-height: 730px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 14.8em;
+  }
+}
+
+@media only screen and (max-height: 710px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 15em;
+  }
+}
+
+@media only screen and (max-height: 690px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 15.2em;
+  }
+}
+
+@media only screen and (max-height: 670px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 15.4em;
+  }
+}
+
+@media only screen and (max-height: 650px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 15.6em;
+  }
+}
+
+@media only screen and (max-height: 640px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 15.8em;
+  }
+}
+
+@media only screen and (max-height: 627px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 16em;
+  }
+}
+
+@media only screen and (max-height: 610px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 16.2em;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 16.4em;
+  }
+}
+
+@media only screen and (max-height: 585px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 16.6em;
+  }
+}
+
+@media only screen and (max-height: 570px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 16.8em;
+  }
+}
+
+@media only screen and (max-height: 565px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 17em;
+  }
+}
+
+@media only screen and (max-height: 550px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 17.4em;
+  }
+}
+
+@media only screen and (max-height: 535px) {
+  .LetsTalkSmall__Header_contaner {
+    height: 17.8em;
+  }
+}
